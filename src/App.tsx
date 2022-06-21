@@ -1,6 +1,7 @@
 import React from "react";
 import { Reset } from "styled-reset";
 
+import CONSTANTS from "./constants";
 import { GlobalStyle, Header, Layout } from "./components/Layout";
 import CardList from "./components/CardList";
 
@@ -10,7 +11,7 @@ function App() {
       <Reset />
       <GlobalStyle />
       <Layout>
-        <Header>Trading Cards</Header>
+        <Header>{CONSTANTS.APP_TITLE}</Header>
         <CardList />
       </Layout>
     </React.Fragment>
