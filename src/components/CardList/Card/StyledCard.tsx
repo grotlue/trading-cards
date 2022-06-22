@@ -7,9 +7,8 @@ const CardWrapper = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 330px;
+  height: 350px;
   margin: 10px 15px;
-  padding-top: 20px;
   width: 230px;
 `;
 
@@ -44,13 +43,5 @@ const CardDetailLabel = styled.p`
   font-weight: bold;
   margin-right: 5px;
 `;
-const CardDetail = styled.p``;
 
-export {
-  CardDetail,
-  CardDetailLabel,
-  CardDetails,
-  CardImage,
-  CardName,
-  CardWrapper,
-};
+export { CardDetailLabel, CardDetails, CardImage, CardName, CardWrapper };

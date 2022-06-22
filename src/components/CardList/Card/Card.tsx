@@ -1,14 +1,8 @@
 import React, { useState } from "react";
 
 import { FlexContainer } from "../../Layout";
-
-import {
-  CardDetail,
-  CardDetailLabel,
-  CardImage,
-  CardName,
-  CardWrapper,
-} from "./StyledCard";
+import CardDetail from "./CardDetail";
+import { CardImage, CardName, CardWrapper } from "./StyledCard";
 
 interface CardProps {
   name: string;
@@ -16,8 +10,20 @@ interface CardProps {
   imageUrl: string;
 }
 
-interface CardType extends CardProps {
+enum CardDetails {
+  manaCost = "Mana Cost",
+  power = "Power",
+  rarity = "Rarity",
+}
+
+type CardDetailsKeys = keyof typeof CardDetails;
+type CardDetailsKeyFields = {
+  [key in CardDetailsKeys]: string | number | boolean;
+};
+
+interface CardType extends CardDetailsKeyFields, CardProps {
   manaCost: string;
+  power: string;
   rarity: string;
 }
 
@@ -51,35 +57,61 @@ const Card = ({ name, id, imageUrl }: CardProps) => {
   return (
     <CardWrapper onClick={() => handleCardClick()}>
       {showDetails && !isLoaded && (
-        <FlexContainer type="row" paddingLeft={25} paddingRight={25}>
+        <FlexContainer
+          flex={1}
+          hCenter
+          paddingBottom={20}
+          paddingLeft={25}
+          paddingRight={25}
+          paddingTop={20}
+          type="row"
+          vCenter
+        >
           Loading...
         </FlexContainer>
       )}
       {showDetails && error && (
-        <FlexContainer type="row" paddingLeft={25} paddingRight={25}>
+        <FlexContainer
+          flex={1}
+          hCenter
+          paddingBottom={20}
+          paddingLeft={25}
+          paddingRight={25}
+          paddingTop={20}
+          type="row"
+          vCenter
+        >
           Error: {error.message}
         </FlexContainer>
       )}
       {showDetails && card && (
-        <FlexContainer type="row">
-          <FlexContainer type="row" paddingLeft={25} paddingRight={25}>
-            <FlexContainer type="column">
-              <CardDetailLabel>Mana Cost:</CardDetailLabel>
-              <CardDetail>{card.manaCost}</CardDetail>
-            </FlexContainer>
-          </FlexContainer>
-          <FlexContainer type="row" paddingLeft={25} paddingRight={25}>
-            <FlexContainer type="column">
-              <CardDetailLabel>Rarity:</CardDetailLabel>
-              <CardDetail>{card.rarity}</CardDetail>
-            </FlexContainer>
-          </FlexContainer>
+        <FlexContainer flex={1} type="row" paddingTop={20} paddingBottom={20}>
+          {Object.keys(CardDetails).map(
+            (detail) =>
+              card[detail as CardDetailsKeys] && (
+                <FlexContainer type="column">
+                  <CardDetail
+                    label={CardDetails[detail as CardDetailsKeys]}
+                    value={card[detail as CardDetailsKeys]}
+                  />
+                </FlexContainer>
+              )
+          )}
         </FlexContainer>
       )}
 
       {!showDetails && (
-        <FlexContainer type="row" hCenter>
-          <CardImage src={imageUrl} />
+        <FlexContainer
+          flex={1}
+          hCenter
+          paddingBottom={20}
+          paddingTop={20}
+          type="row"
+          vCenter
+        >
+          <FlexContainer type="row">
+            <CardImage src={imageUrl} />
+          </FlexContainer>
         </FlexContainer>
       )}
       <CardName>{name}</CardName>

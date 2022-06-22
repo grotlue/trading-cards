@@ -33,22 +33,25 @@ const Layout = styled.div`
 `;
 
 interface FlexBoxProps {
-  readonly type: "row" | "column";
+  readonly flex?: number;
   readonly hCenter?: boolean;
-  readonly vCenter?: boolean;
-  readonly wrap?: boolean;
-  readonly paddingTop?: number;
-  readonly paddingRight?: number;
-  readonly paddingBottom?: number;
-  readonly paddingLeft?: number;
-  readonly marginTop?: number;
-  readonly marginRight?: number;
   readonly marginBottom?: number;
   readonly marginLeft?: number;
+  readonly marginRight?: number;
+  readonly marginTop?: number;
+  readonly paddingBottom?: number;
+  readonly paddingLeft?: number;
+  readonly paddingRight?: number;
+  readonly paddingTop?: number;
+  readonly type: "row" | "column";
+  readonly vCenter?: boolean;
+  readonly wrap?: boolean;
 }
 
 const FlexContainer = styled.div<FlexBoxProps>`
   display: flex;
+  box-sizing: border-box;
+  ${(props) => props.flex && `flex: ${props.flex};`}
   flex-direction: ${(props) => (props.type === "row" ? "column" : "row")};
   ${(props) => props.wrap && "flex-wrap: wrap;"}
   ${(props) =>
