@@ -6,8 +6,8 @@ interface ColorFilterProps {
 
 const ColorFilter = styled.button<ColorFilterProps>`
   background-color: ${(props) => (props.isActive ? "#484035" : "#fff")};
+  border-radius 15px;
   color: ${(props) => (props.isActive ? "#fff" : "#484035")};
-  cursor: pointer;
   padding: 5px 7px;
   margin-right: 10px;
 `;

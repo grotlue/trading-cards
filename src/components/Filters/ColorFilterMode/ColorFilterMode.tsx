@@ -8,9 +8,8 @@ interface ColorFilterModeProps {
 const ColorFilterMode = styled.button<ColorFilterModeProps>`
   background-color: ${(props) => (props.isActive ? "#484035" : "#fff")};
   color: ${(props) => (props.isActive ? "#fff" : "#484035")};
-  cursor: pointer;
-  ${(props) => props.position === "left" && "border-radius: 10px 0 0 10px;"}
-  ${(props) => props.position === "right" && "border-radius: 0 10px 10px 0;"}
+  ${(props) => props.position === "left" && "border-radius: 15px 0 0 15px;"}
+  ${(props) => props.position === "right" && "border-radius: 0 15px 15px 0;"}
 
   &[disabled] {
     cursor: default;

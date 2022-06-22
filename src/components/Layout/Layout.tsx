@@ -10,15 +10,20 @@ const GlobalStyle = createGlobalStyle`
 
   input, button {
     border: 1px solid #484035;
-    border-radius: 10px;
     color: #484035;
     font-family: 'Roboto', serif;
     font-size: 14px;
+
+    &:focus, &:active {
+      outline: 1px solid #484035;
+    }
   }
 
   button {
+    cursor: pointer;
     padding: 5px 7px;
   }
+
 `;
 
 const Layout = styled.div`

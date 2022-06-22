@@ -4,6 +4,7 @@ import CONSTANTS from "../../constants";
 
 import { FlexContainer } from "../Layout";
 
+import Button from "../Button";
 import CardList from "../CardList";
 import Filters from "../Filters";
 
@@ -69,14 +70,18 @@ const CardShowCase = () => {
       <FlexContainer type="row" hCenter marginBottom={25}>
         <FlexContainer type="column">
           {currentPage > 1 && (
-            <button onClick={() => setCurrentPage(currentPage - 1)}>
-              Previous Page
-            </button>
+            <FlexContainer type="column" marginLeft={5} marginRight={5}>
+              <Button onClick={() => setCurrentPage(currentPage - 1)}>
+                Previous Page
+              </Button>
+            </FlexContainer>
           )}
           {totalCount / CONSTANTS.CARDS.PAGE_SIZE > currentPage && (
-            <button onClick={() => setCurrentPage(currentPage + 1)}>
-              NextPage
-            </button>
+            <FlexContainer type="column" marginLeft={5} marginRight={5}>
+              <Button onClick={() => setCurrentPage(currentPage + 1)}>
+                Next Page
+              </Button>
+            </FlexContainer>
           )}
         </FlexContainer>
       </FlexContainer>
