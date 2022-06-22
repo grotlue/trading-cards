@@ -1,16 +1,15 @@
 import styled from "styled-components";
 
-const CardWrapper = styled.li`
+const CardWrapper = styled.div`
   background: linear-gradient(180deg, #fdf7ef 0%, #f9eddd 100%);
   border-radius: 30px;
-  height: 330px;
-  width: 230px;
-  margin: 10px 15px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  height: 330px;
+  margin: 10px 15px;
   padding-top: 20px;
-  align-items: center;
+  width: 230px;
 `;
 
 const CardImage = styled.img`
@@ -19,29 +18,25 @@ const CardImage = styled.img`
 
 const CardName = styled.p`
   background: #fff;
-  text-align: center;
-  border-radius: 0px 0px 30px 30px;
-  width: 100%;
-  border-width: 0px 1px 1px 1px;
-  border-style: solid;
   border-color: #f9eddd;
+  border-radius: 0px 0px 30px 30px;
+  border-style: solid;
+  border-width: 0px 1px 1px 1px;
   box-sizing: border-box;
+  font-size: 16px;
+  font-weight: bold;
   padding: 10px;
+  text-align: center;
+  width: 100%;
 `;
 
 const CardDetails = styled.div`
+  align-items: center;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  align-items: center;
   padding: 0 20px;
   width: 100%;
-`;
-
-const CardDetailRow = styled.div`
-  width: 100%;
-  margin: 5px 0;
-  display: flex;
 `;
 
 const CardDetailLabel = styled.p`
@@ -51,11 +46,10 @@ const CardDetailLabel = styled.p`
 const CardDetail = styled.p``;
 
 export {
-  CardImage,
-  CardName,
-  CardDetails,
   CardDetail,
   CardDetailLabel,
-  CardDetailRow,
+  CardDetails,
+  CardImage,
+  CardName,
   CardWrapper,
 };

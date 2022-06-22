@@ -2,7 +2,12 @@ import React from "react";
 import { Reset } from "styled-reset";
 
 import CONSTANTS from "./constants";
-import { GlobalStyle, Header, Layout } from "./components/Layout";
+import {
+  FlexContainer,
+  GlobalStyle,
+  Header,
+  Layout,
+} from "./components/Layout";
 import CardShowCase from "./components/CardShowCase";
 
 function App() {
@@ -11,7 +16,11 @@ function App() {
       <Reset />
       <GlobalStyle />
       <Layout>
-        <Header>{CONSTANTS.APP_TITLE}</Header>
+        <FlexContainer type="row" hCenter>
+          <FlexContainer type="column">
+            <Header>{CONSTANTS.APP_TITLE}</Header>
+          </FlexContainer>
+        </FlexContainer>
         <CardShowCase />
       </Layout>
     </React.Fragment>

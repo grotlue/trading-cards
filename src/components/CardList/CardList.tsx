@@ -1,14 +1,8 @@
 import React from "react";
-import styled from "styled-components";
 
 import Card from "./Card";
 
 import type { CardResponse, CardResultError } from "../CardShowCase";
-
-const CardListWrapper = styled.ul`
-  display: flex;
-  flex-wrap: wrap;
-`;
 
 interface CardProps {
   cardReponse: CardResponse;
@@ -23,7 +17,7 @@ const CardList = ({ error, isLoaded, cardReponse }: CardProps) => {
     return <div>Loading...</div>;
   } else {
     return (
-      <CardListWrapper>
+      <React.Fragment>
         {cardReponse.map((card) => {
           return (
             <Card
@@ -34,7 +28,7 @@ const CardList = ({ error, isLoaded, cardReponse }: CardProps) => {
             />
           );
         })}
-      </CardListWrapper>
+      </React.Fragment>
     );
   }
 };

@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 
 import CONSTANTS from "../../constants";
 
+import { FlexContainer } from "../Layout";
+
 import CardList from "../CardList";
 import Filters from "../Filters";
 
@@ -56,17 +58,33 @@ const CardShowCase = () => {
 
   return (
     <React.Fragment>
-      <Filters
-        setFilterQuery={setFilterQuery}
-        setCurrentPage={setCurrentPage}
-      />
-      <CardList isLoaded={isLoaded} error={error} cardReponse={cards} />
-      {currentPage > 1 && (
-        <button onClick={() => setCurrentPage(currentPage - 1)}>Prev</button>
-      )}
-      {totalCount / CONSTANTS.CARDS.PAGE_SIZE > currentPage && (
-        <button onClick={() => setCurrentPage(currentPage + 1)}>Next</button>
-      )}
+      <FlexContainer type="row" hCenter>
+        <FlexContainer type="column">
+          <Filters
+            setFilterQuery={setFilterQuery}
+            setCurrentPage={setCurrentPage}
+          />
+        </FlexContainer>
+      </FlexContainer>
+      <FlexContainer type="row" hCenter>
+        <FlexContainer type="column" hCenter wrap>
+          <CardList isLoaded={isLoaded} error={error} cardReponse={cards} />
+        </FlexContainer>
+      </FlexContainer>
+      <FlexContainer type="row" hCenter>
+        <FlexContainer type="column">
+          {currentPage > 1 && (
+            <button onClick={() => setCurrentPage(currentPage - 1)}>
+              Prev
+            </button>
+          )}
+          {totalCount / CONSTANTS.CARDS.PAGE_SIZE > currentPage && (
+            <button onClick={() => setCurrentPage(currentPage + 1)}>
+              Next
+            </button>
+          )}
+        </FlexContainer>
+      </FlexContainer>
     </React.Fragment>
   );
 };

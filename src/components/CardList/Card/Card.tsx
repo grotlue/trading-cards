@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 
+import { FlexContainer } from "../../Layout";
+
 import {
   CardDetail,
   CardDetailLabel,
-  CardDetailRow,
-  CardDetails,
   CardImage,
   CardName,
   CardWrapper,
@@ -54,26 +54,32 @@ const Card = ({ name, id, imageUrl }: CardProps) => {
       {showDetails && error && <div>Error: {error.message}</div>}
       {showDetails && card && (
         <React.Fragment>
-          <CardDetails>
-            <CardDetailRow>
-              <CardDetailLabel>Mana Cost:</CardDetailLabel>
-              <CardDetail>{card.manaCost}</CardDetail>
-            </CardDetailRow>
-            <CardDetailRow>
-              <CardDetailLabel>Rarity:</CardDetailLabel>
-              <CardDetail>{card.rarity}</CardDetail>
-            </CardDetailRow>
-          </CardDetails>
+          <FlexContainer type="row">
+            <FlexContainer type="row" paddingLeft={25} paddingRight={25}>
+              <FlexContainer type="column">
+                <CardDetailLabel>Mana Cost:</CardDetailLabel>
+                <CardDetail>{card.manaCost}</CardDetail>
+              </FlexContainer>
+            </FlexContainer>
+            <FlexContainer type="row" paddingLeft={25} paddingRight={25}>
+              <FlexContainer type="column">
+                <CardDetailLabel>Rarity:</CardDetailLabel>
+                <CardDetail>{card.rarity}</CardDetail>
+              </FlexContainer>
+            </FlexContainer>
+          </FlexContainer>
           <CardName>{name}</CardName>
         </React.Fragment>
       )}
 
       {!showDetails && (
         <React.Fragment>
-          <CardDetails>
+          <FlexContainer type="row" hCenter>
             <CardImage src={imageUrl} />
-          </CardDetails>
-          <CardName>{name}</CardName>
+          </FlexContainer>
+          <FlexContainer type="row">
+            <CardName>{name}</CardName>
+          </FlexContainer>
         </React.Fragment>
       )}
     </CardWrapper>
