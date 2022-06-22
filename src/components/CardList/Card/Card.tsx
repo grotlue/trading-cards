@@ -50,8 +50,16 @@ const Card = ({ name, id, imageUrl }: CardProps) => {
 
   return (
     <CardWrapper onClick={() => handleCardClick()}>
-      {showDetails && !isLoaded && <div>Loading</div>}
-      {showDetails && error && <div>Error: {error.message}</div>}
+      {showDetails && !isLoaded && (
+        <FlexContainer type="row" paddingLeft={25} paddingRight={25}>
+          Loading...
+        </FlexContainer>
+      )}
+      {showDetails && error && (
+        <FlexContainer type="row" paddingLeft={25} paddingRight={25}>
+          Error: {error.message}
+        </FlexContainer>
+      )}
       {showDetails && card && (
         <React.Fragment>
           <FlexContainer type="row">

@@ -3,6 +3,7 @@ import styled from "styled-components";
 const CardWrapper = styled.div`
   background: linear-gradient(180deg, #fdf7ef 0%, #f9eddd 100%);
   border-radius: 30px;
+  cursor: pointer;
   display: flex;
   flex-direction: column;
   justify-content: space-between;

@@ -17,7 +17,7 @@ function App() {
       <GlobalStyle />
       <Layout>
         <FlexContainer type="row" hCenter>
-          <FlexContainer type="column">
+          <FlexContainer type="column" marginBottom={35}>
             <Header>{CONSTANTS.APP_TITLE}</Header>
           </FlexContainer>
         </FlexContainer>

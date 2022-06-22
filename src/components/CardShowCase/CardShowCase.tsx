@@ -72,7 +72,7 @@ const CardShowCase = () => {
         </FlexContainer>
       </FlexContainer>
       <FlexContainer type="row" hCenter>
-        <FlexContainer type="column">
+        <FlexContainer type="column" marginTop={25}>
           {currentPage > 1 && (
             <button onClick={() => setCurrentPage(currentPage - 1)}>
               Prev
