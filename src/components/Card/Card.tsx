@@ -1,9 +1,9 @@
 import React from "react";
 
-type CardProps = {
+interface CardProps {
   name: string;
   imageUrl: string;
-};
+}
 
 const Card = ({ name, imageUrl }: CardProps) => (
   <div>

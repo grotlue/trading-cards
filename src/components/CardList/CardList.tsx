@@ -1,37 +1,16 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 
 import Card from "../Card";
-import CONSTANTS from "../../constants";
 
-type CardResult = {
-  id: string;
-  name: string;
-  imageUrl: string;
-};
+import type { CardResponse, CardResultError } from "../CardShowCase";
 
-const CardList = () => {
-  const [error, setError] = useState<{ message: string } | null>(null);
-  useState<Array<CardResult> | []>([]);
-  const [isLoaded, setIsLoaded] = useState<boolean>(false);
-  const [cards, setCards] = useState<Array<CardResult> | []>([]);
+interface CardProps {
+  cardReponse: CardResponse;
+  error: CardResultError;
+  isLoaded: boolean;
+}
 
-  useEffect(() => {
-    fetch(
-      `https://api.magicthegathering.io/v1/cards?pageSize=${CONSTANTS.CARDS.PAGE_SIZE}&contains=imageUrl`
-    )
-      .then((res) => res.json())
-      .then(
-        (result) => {
-          setIsLoaded(true);
-          setCards(result.cards);
-        },
-        (error) => {
-          setIsLoaded(true);
-          setError(error);
-        }
-      );
-  }, []);
-
+const CardList = ({ error, isLoaded, cardReponse }: CardProps) => {
   if (error) {
     return <div>Error: {error.message}</div>;
   } else if (!isLoaded) {
@@ -39,7 +18,7 @@ const CardList = () => {
   } else {
     return (
       <React.Fragment>
-        {cards.map((card) => {
+        {cardReponse.map((card) => {
           return (
             <Card key={card.id} name={card.name} imageUrl={card.imageUrl} />
           );

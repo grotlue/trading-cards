@@ -3,7 +3,7 @@ import { Reset } from "styled-reset";
 
 import CONSTANTS from "./constants";
 import { GlobalStyle, Header, Layout } from "./components/Layout";
-import CardList from "./components/CardList";
+import CardShowCase from "./components/CardShowCase";
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       <GlobalStyle />
       <Layout>
         <Header>{CONSTANTS.APP_TITLE}</Header>
-        <CardList />
+        <CardShowCase />
       </Layout>
     </React.Fragment>
   );
