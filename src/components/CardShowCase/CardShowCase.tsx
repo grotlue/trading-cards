@@ -67,11 +67,6 @@ const CardShowCase = () => {
         </FlexContainer>
       </FlexContainer>
       <FlexContainer type="row" hCenter>
-        <FlexContainer type="column" hCenter wrap>
-          <CardList isLoaded={isLoaded} error={error} cardReponse={cards} />
-        </FlexContainer>
-      </FlexContainer>
-      <FlexContainer type="row" hCenter>
         <FlexContainer type="column" marginTop={25}>
           {currentPage > 1 && (
             <button onClick={() => setCurrentPage(currentPage - 1)}>
@@ -83,6 +78,11 @@ const CardShowCase = () => {
               Next
             </button>
           )}
+        </FlexContainer>
+      </FlexContainer>
+      <FlexContainer type="row" hCenter>
+        <FlexContainer type="column" hCenter wrap>
+          <CardList isLoaded={isLoaded} error={error} cardReponse={cards} />
         </FlexContainer>
       </FlexContainer>
     </React.Fragment>

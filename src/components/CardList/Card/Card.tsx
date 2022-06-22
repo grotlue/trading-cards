@@ -61,35 +61,28 @@ const Card = ({ name, id, imageUrl }: CardProps) => {
         </FlexContainer>
       )}
       {showDetails && card && (
-        <React.Fragment>
-          <FlexContainer type="row">
-            <FlexContainer type="row" paddingLeft={25} paddingRight={25}>
-              <FlexContainer type="column">
-                <CardDetailLabel>Mana Cost:</CardDetailLabel>
-                <CardDetail>{card.manaCost}</CardDetail>
-              </FlexContainer>
-            </FlexContainer>
-            <FlexContainer type="row" paddingLeft={25} paddingRight={25}>
-              <FlexContainer type="column">
-                <CardDetailLabel>Rarity:</CardDetailLabel>
-                <CardDetail>{card.rarity}</CardDetail>
-              </FlexContainer>
+        <FlexContainer type="row">
+          <FlexContainer type="row" paddingLeft={25} paddingRight={25}>
+            <FlexContainer type="column">
+              <CardDetailLabel>Mana Cost:</CardDetailLabel>
+              <CardDetail>{card.manaCost}</CardDetail>
             </FlexContainer>
           </FlexContainer>
-          <CardName>{name}</CardName>
-        </React.Fragment>
+          <FlexContainer type="row" paddingLeft={25} paddingRight={25}>
+            <FlexContainer type="column">
+              <CardDetailLabel>Rarity:</CardDetailLabel>
+              <CardDetail>{card.rarity}</CardDetail>
+            </FlexContainer>
+          </FlexContainer>
+        </FlexContainer>
       )}
 
       {!showDetails && (
-        <React.Fragment>
-          <FlexContainer type="row" hCenter>
-            <CardImage src={imageUrl} />
-          </FlexContainer>
-          <FlexContainer type="row">
-            <CardName>{name}</CardName>
-          </FlexContainer>
-        </React.Fragment>
+        <FlexContainer type="row" hCenter>
+          <CardImage src={imageUrl} />
+        </FlexContainer>
       )}
+      <CardName>{name}</CardName>
     </CardWrapper>
   );
 };
