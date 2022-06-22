@@ -20,7 +20,12 @@ const CardList = ({ error, isLoaded, cardReponse }: CardProps) => {
       <React.Fragment>
         {cardReponse.map((card) => {
           return (
-            <Card key={card.id} name={card.name} imageUrl={card.imageUrl} />
+            <Card
+              key={card.id}
+              id={card.id}
+              name={card.name}
+              imageUrl={card.imageUrl}
+            />
           );
         })}
       </React.Fragment>
