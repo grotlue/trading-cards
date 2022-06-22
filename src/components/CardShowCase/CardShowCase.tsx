@@ -21,6 +21,7 @@ const CardShowCase = () => {
   const [cards, setCards] = useState<CardResponse>([]);
   const [filterQuery, setFilterQuery] = useState<string>("");
   const [currentPage, setCurrentPage] = useState<number>(1);
+  const [totalCount, setTotalCount] = useState<number>(0);
   const queryVariables: Array<boolean | number | string> | [] = [
     currentPage,
     filterQuery,
@@ -30,9 +31,17 @@ const CardShowCase = () => {
     isLoaded && setIsLoaded(false);
 
     fetch(
-      `https://api.magicthegathering.io/v1/cards?pageSize=${CONSTANTS.CARDS.PAGE_SIZE}&contains=imageUrl&${filterQuery}`
+      `https://api.magicthegathering.io/v1/cards?pageSize=${CONSTANTS.CARDS.PAGE_SIZE}&page=${currentPage}contains=imageUrl&${filterQuery}`
     )
-      .then((res) => res.json())
+      .then((res) => {
+        const total: string | null = res.headers.get("total-count");
+
+        if (total) {
+          setTotalCount(parseInt(total));
+        }
+
+        return res.json();
+      })
       .then(
         (result) => {
           setIsLoaded(true);
@@ -48,11 +57,16 @@ const CardShowCase = () => {
   return (
     <React.Fragment>
       <Filters
-        currentPage={currentPage}
-        setCurrentPage={setCurrentPage}
         setFilterQuery={setFilterQuery}
+        setCurrentPage={setCurrentPage}
       />
       <CardList isLoaded={isLoaded} error={error} cardReponse={cards} />
+      {currentPage > 1 && (
+        <button onClick={() => setCurrentPage(currentPage - 1)}>Prev</button>
+      )}
+      {totalCount / CONSTANTS.CARDS.PAGE_SIZE > currentPage && (
+        <button onClick={() => setCurrentPage(currentPage + 1)}>Next</button>
+      )}
     </React.Fragment>
   );
 };

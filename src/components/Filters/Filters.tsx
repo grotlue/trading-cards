@@ -14,12 +14,11 @@ import NameFilter from "./NameFilter";
 import type { FilterModeType } from "../../types";
 
 interface FiltersProps {
-  currentPage: number;
   setCurrentPage: Dispatch<SetStateAction<number>>;
   setFilterQuery: Dispatch<SetStateAction<string>>;
 }
 
-const Filters = ({ setFilterQuery }: FiltersProps) => {
+const Filters = ({ setCurrentPage, setFilterQuery }: FiltersProps) => {
   const initialRender = useRef(true);
 
   const [colorFilter, setColorFilter] = useState<Array<string> | []>([]);
@@ -50,6 +49,7 @@ const Filters = ({ setFilterQuery }: FiltersProps) => {
     if (initialRender.current) {
       initialRender.current = false;
     } else {
+      setCurrentPage(1);
       buildFilterQuery();
     }
   }, [colorFilter, colorFilterMode, nameFilter]);
