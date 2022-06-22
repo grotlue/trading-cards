@@ -58,24 +58,24 @@ const CardShowCase = () => {
 
   return (
     <React.Fragment>
-      <FlexContainer type="row" hCenter>
-        <FlexContainer type="column">
+      <FlexContainer type="row" hCenter marginBottom={25}>
+        <FlexContainer type="column" wrap>
           <Filters
             setFilterQuery={setFilterQuery}
             setCurrentPage={setCurrentPage}
           />
         </FlexContainer>
       </FlexContainer>
-      <FlexContainer type="row" hCenter>
-        <FlexContainer type="column" marginTop={25}>
+      <FlexContainer type="row" hCenter marginBottom={25}>
+        <FlexContainer type="column">
           {currentPage > 1 && (
             <button onClick={() => setCurrentPage(currentPage - 1)}>
-              Prev
+              Previous Page
             </button>
           )}
           {totalCount / CONSTANTS.CARDS.PAGE_SIZE > currentPage && (
             <button onClick={() => setCurrentPage(currentPage + 1)}>
-              Next
+              NextPage
             </button>
           )}
         </FlexContainer>

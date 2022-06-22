@@ -5,8 +5,11 @@ import React, {
   Dispatch,
   SetStateAction,
 } from "react";
+import styled from "styled-components";
 
 import CONSTANTS from "../../constants";
+
+import { FlexContainer } from "../Layout";
 import ColorFilter from "./ColorFilter";
 import ColorFilterMode from "./ColorFilterMode";
 import NameFilter from "./NameFilter";
@@ -17,6 +20,11 @@ interface FiltersProps {
   setCurrentPage: Dispatch<SetStateAction<number>>;
   setFilterQuery: Dispatch<SetStateAction<string>>;
 }
+
+const FilterLabel = styled.p`
+  font-weight: bold;
+  margin-right: 10px;
+`;
 
 const Filters = ({ setCurrentPage, setFilterQuery }: FiltersProps) => {
   const initialRender = useRef(true);
@@ -63,38 +71,73 @@ const Filters = ({ setCurrentPage, setFilterQuery }: FiltersProps) => {
     }
   }, [nameFilterInput]);
 
+  const enableColorFilterMode = colorFilter.length > 1;
+
   return (
     <React.Fragment>
-      <NameFilter
-        onChange={(event) => setNameFilterInput(event.target.value)} // Todo add timeout
-      />
+      <FlexContainer
+        type="column"
+        vCenter
+        marginTop={5}
+        marginBottom={5}
+        marginLeft={10}
+        marginRight={10}
+      >
+        <FilterLabel>Filter by name(s):</FilterLabel>
+        <NameFilter
+          onChange={(event) => setNameFilterInput(event.target.value)}
+          placeholder="e.g. nissa,jace|ajani,caller"
+          size={30}
+        />
+      </FlexContainer>
+      <FlexContainer
+        type="column"
+        vCenter
+        marginTop={5}
+        marginBottom={5}
+        marginLeft={10}
+      >
+        <FilterLabel>Filter by colour:</FilterLabel>
+        {CONSTANTS.CARDS.COLORS.map((color) => {
+          const filterActive = !!colorFilter.find((ele) => ele === color);
+          return (
+            <ColorFilter
+              isActive={filterActive}
+              key={color}
+              onClick={() => updateColorFilter(filterActive, color)}
+            >
+              {color}
+            </ColorFilter>
+          );
+        })}
+      </FlexContainer>
+      <FlexContainer
+        type="column"
+        vCenter
+        marginTop={5}
+        marginBottom={5}
+        marginLeft={10}
+        marginRight={10}
+      >
+        <FilterLabel>Colour filter mode:</FilterLabel>
+        {CONSTANTS.CARDS.COLOR_FILTER_MODES.map((mode, index) => {
+          const filterActive = colorFilterMode === mode.queryValue;
 
-      {CONSTANTS.CARDS.COLOR_FILTER_MODES.map((mode) => {
-        const filterActive = colorFilterMode === mode.queryValue;
+          const position = index === 0 ? "left" : "right";
 
-        return (
-          <ColorFilterMode
-            isActive={filterActive}
-            key={mode.queryValue}
-            onClick={() => setColorFilterMode(mode.queryValue)}
-          >
-            {mode.name}
-          </ColorFilterMode>
-        );
-      })}
-
-      {CONSTANTS.CARDS.COLORS.map((color) => {
-        const filterActive = !!colorFilter.find((ele) => ele === color);
-        return (
-          <ColorFilter
-            isActive={filterActive}
-            key={color}
-            onClick={() => updateColorFilter(filterActive, color)}
-          >
-            {color}
-          </ColorFilter>
-        );
-      })}
+          return (
+            <ColorFilterMode
+              isActive={filterActive}
+              position={position}
+              disabled={!enableColorFilterMode}
+              key={mode.queryValue}
+              onClick={() => setColorFilterMode(mode.queryValue)}
+            >
+              {mode.name}
+            </ColorFilterMode>
+          );
+        })}
+      </FlexContainer>
     </React.Fragment>
   );
 };
