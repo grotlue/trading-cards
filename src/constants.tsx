@@ -2,6 +2,7 @@ import type { CardColorsType, FilterModeType } from "./types";
 
 type ConstantsType = {
   APP_TITLE: string;
+  API_BASE_URL: string;
   CARDS: CardConstantsType;
 };
 
@@ -19,6 +20,7 @@ type FilterModeConstantType = {
 
 const CONSTANTS: ConstantsType = {
   APP_TITLE: "Trading Cards",
+  API_BASE_URL: "https://api.magicthegathering.io/v1",
   CARDS: {
     COLORS: ["black", "blue", "green", "red", "white"],
     DEFAULT_COLOR_FILTER_MODE: ",",

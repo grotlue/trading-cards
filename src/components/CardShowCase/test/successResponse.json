@@ -1,0 +1,3486 @@
+{
+  "cards": [
+    {
+      "name": "Ancestor's Chosen",
+      "manaCost": "{5}{W}{W}",
+      "cmc": 7.0,
+      "colors": ["White"],
+      "colorIdentity": ["W"],
+      "type": "Creature — Human Cleric",
+      "types": ["Creature"],
+      "subtypes": ["Human", "Cleric"],
+      "rarity": "Uncommon",
+      "set": "10E",
+      "setName": "Tenth Edition",
+      "text": "First strike (This creature deals combat damage before creatures without first strike.)\nWhen Ancestor's Chosen enters the battlefield, you gain 1 life for each card in your graveyard.",
+      "artist": "Pete Venters",
+      "number": "1",
+      "power": "4",
+      "toughness": "4",
+      "layout": "normal",
+      "multiverseid": "130550",
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=130550&type=card",
+      "variations": ["b7c19924-b4bf-56fc-aa73-f586e940bd42"],
+      "foreignNames": [
+        {
+          "name": "Ausgewählter der Ahnfrau",
+          "text": "Erstschlag (Diese Kreatur fügt Kampfschaden vor Kreaturen ohne Erstschlag zu.)\nWenn der Ausgewählte der Ahnfrau ins Spiel kommt, erhältst du 1 Lebenspunkt für jede Karte in deinem Friedhof dazu.",
+          "type": "Kreatur — Mensch, Kleriker",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148411&type=card",
+          "language": "German",
+          "multiverseid": null
+        },
+        {
+          "name": "Elegido de la Antepasada",
+          "text": "Daña primero. (Esta criatura hace daño de combate antes que las criaturas sin la habilidad de dañar primero.)\nCuando el Elegido de la Antepasada entre en juego, ganas 1 vida por cada carta en tu cementerio.",
+          "type": "Criatura — Clérigo humano",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=150317&type=card",
+          "language": "Spanish",
+          "multiverseid": null
+        },
+        {
+          "name": "Élu de l'Ancêtre",
+          "text": "Initiative (Cette créature inflige des blessures de combat avant les créatures sans l'initiative.)\nQuand l'Élu de l'Ancêtre arrive en jeu, vous gagnez 1 point de vie pour chaque carte dans votre cimetière.",
+          "type": "Créature : humain et clerc",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149934&type=card",
+          "language": "French",
+          "multiverseid": null
+        },
+        {
+          "name": "Prescelto dell'Antenata",
+          "text": "Attacco improvviso (Questa creatura infligge danno da combattimento prima delle creature senza attacco improvviso.)\nQuando il Prescelto dell'Antenata entra in gioco, guadagni 1 punto vita per ogni carta nel tuo cimitero.",
+          "type": "Creatura — Chierico Umano",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148794&type=card",
+          "language": "Italian",
+          "multiverseid": null
+        },
+        {
+          "name": "祖神に選ばれし者",
+          "text": "先制攻撃 （このクリーチャーは先制攻撃を持たないクリーチャーよりも先に戦闘ダメージを与える。）\n祖神に選ばれし者が場に出たとき、あなたはあなたの墓地にあるカード１枚につき１点のライフを得る。",
+          "type": "クリーチャー — 人間・クレリック",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148028&type=card",
+          "language": "Japanese",
+          "multiverseid": null
+        },
+        {
+          "name": "Eleito da Ancestral",
+          "text": "Iniciativa (Esta criatura causa dano de combate antes de criaturas sem a habilidade de iniciativa.)\nQuando Eleito da Ancestral entra em jogo, você ganha 1 ponto de vida para cada card em seu cemitério.",
+          "type": "Criatura — Humano Clérigo",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149551&type=card",
+          "language": "Portuguese (Brazil)",
+          "multiverseid": null
+        },
+        {
+          "name": "Избранник Прародителя",
+          "text": "Первый удар (Это существо наносит боевые повреждения раньше существ без Первого удара.)\nКогда Избранник Прародителя входит в игру, вы получаете 1 жизнь за каждую карту на вашем кладбище.",
+          "type": "Существо — Человек Священник",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149168&type=card",
+          "language": "Russian",
+          "multiverseid": null
+        },
+        {
+          "name": "祖灵的爱民",
+          "text": "先攻（此生物会比不具先攻异能的生物提前造成战斗伤害。）\n当祖灵的爱民进场时，你坟墓场中每有一张牌，你便获得1点生命。",
+          "type": "生物～人类／僧侣",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=147645&type=card",
+          "language": "Chinese Simplified",
+          "multiverseid": null
+        }
+      ],
+      "printings": ["10E", "JUD", "UMA"],
+      "originalText": "First strike (This creature deals combat damage before creatures without first strike.)\nWhen Ancestor's Chosen comes into play, you gain 1 life for each card in your graveyard.",
+      "originalType": "Creature - Human Cleric",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Duel",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Modern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Paupercommander",
+          "legality": "Restricted"
+        },
+        {
+          "format": "Penny",
+          "legality": "Legal"
+        },
+        {
+          "format": "Premodern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "5f8287b1-5bb6-5f4c-ad17-316a40d5bb0c"
+    },
+    {
+      "name": "Angel of Mercy",
+      "manaCost": "{4}{W}",
+      "cmc": 5.0,
+      "colors": ["White"],
+      "colorIdentity": ["W"],
+      "type": "Creature — Angel",
+      "types": ["Creature"],
+      "subtypes": ["Angel"],
+      "rarity": "Uncommon",
+      "set": "10E",
+      "setName": "Tenth Edition",
+      "text": "Flying\nWhen Angel of Mercy enters the battlefield, you gain 3 life.",
+      "flavor": "Every tear shed is a drop of immortality.",
+      "artist": "Volkan Baǵa",
+      "number": "2",
+      "power": "3",
+      "toughness": "3",
+      "layout": "normal",
+      "multiverseid": "129465",
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129465&type=card",
+      "variations": ["8fd4e2eb-3eb4-50ea-856b-ef638fa47f8a"],
+      "foreignNames": [
+        {
+          "name": "Engel der Gnade",
+          "text": "Fliegend (Diese Kreatur kann außer von fliegenden Kreaturen und Kreaturen mit Reichweite nicht geblockt werden.)\nWenn der Engel der Gnade ins Spiel kommt, erhältst du 3 Lebenspunkte dazu.",
+          "type": "Kreatur — Engel",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148412&type=card",
+          "language": "German",
+          "multiverseid": null
+        },
+        {
+          "name": "Ángel de piedad",
+          "text": "Vuela. (Esta criatura no puede ser bloqueada excepto por criaturas que tengan la habilidad de volar o alcance.)\nCuando el Ángel de piedad entre en juego, gana 3 vidas.",
+          "type": "Criatura — Ángel",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=150318&type=card",
+          "language": "Spanish",
+          "multiverseid": null
+        },
+        {
+          "name": "Ange de miséricorde",
+          "text": "Vol (Cette créature ne peut être bloquée que par des créatures avec le vol ou la portée.)\nQuand l'Ange de miséricorde arrive en jeu, vous gagnez 3 points de vie.",
+          "type": "Créature : ange",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149935&type=card",
+          "language": "French",
+          "multiverseid": null
+        },
+        {
+          "name": "Angelo della Misericordia",
+          "text": "Volare (Questa creatura non può essere bloccata tranne che da creature con volare o raggiungere.)\nQuando l'Angelo della Misericordia entra in gioco, guadagni 3 punti vita.",
+          "type": "Creatura — Angelo",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148795&type=card",
+          "language": "Italian",
+          "multiverseid": null
+        },
+        {
+          "name": "慈悲の天使",
+          "text": "飛行 （このクリーチャーは飛行や到達を持たないクリーチャーによってブロックされない。）\n慈悲の天使が場に出たとき、あなたは３点のライフを得る。",
+          "type": "クリーチャー — 天使",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148029&type=card",
+          "language": "Japanese",
+          "multiverseid": null
+        },
+        {
+          "name": "Anjo de Misericórdia",
+          "text": "Voar (Esta criatura só pode ser bloqueada por criaturas com a habilidade de voar ou alcance.)\nQuando Anjo de Misericórdia entra em jogo, você ganha 3 pontos de vida.",
+          "type": "Criatura — Anjo",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149552&type=card",
+          "language": "Portuguese (Brazil)",
+          "multiverseid": null
+        },
+        {
+          "name": "Ангел Милосердия",
+          "text": "Полет (Это существо может быть заблокировано только существом с Полетом или Захватом.)\nКогда Ангел Милосердия входит в игру, вы получаете 3 жизни.",
+          "type": "Существо — Ангел",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149169&type=card",
+          "language": "Russian",
+          "multiverseid": null
+        },
+        {
+          "name": "慈悲天使",
+          "text": "飞行（只有具飞行或延势异能的生物才能阻挡它。）\n当慈悲天使进场时，你获得3点生命。",
+          "type": "生物～天使",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=147646&type=card",
+          "language": "Chinese Simplified",
+          "multiverseid": null
+        }
+      ],
+      "printings": [
+        "10E",
+        "8ED",
+        "9ED",
+        "DDC",
+        "DVD",
+        "IMA",
+        "INV",
+        "JMP",
+        "MB1",
+        "P02",
+        "PS11",
+        "PSAL",
+        "S99"
+      ],
+      "originalText": "Flying (This creature can't be blocked except by creatures with flying or reach.)\nWhen Angel of Mercy comes into play, you gain 3 life.",
+      "originalType": "Creature - Angel",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Duel",
+          "legality": "Legal"
+        },
+        {
+          "format": "Gladiator",
+          "legality": "Legal"
+        },
+        {
+          "format": "Historic",
+          "legality": "Legal"
+        },
+        {
+          "format": "Historicbrawl",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Modern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Pauper",
+          "legality": "Legal"
+        },
+        {
+          "format": "Paupercommander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Penny",
+          "legality": "Legal"
+        },
+        {
+          "format": "Premodern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "57aaebc1-850c-503d-9f6e-bb8d00d8bf7c"
+    },
+    {
+      "name": "Angelic Blessing",
+      "manaCost": "{2}{W}",
+      "cmc": 3.0,
+      "colors": ["White"],
+      "colorIdentity": ["W"],
+      "type": "Sorcery",
+      "types": ["Sorcery"],
+      "rarity": "Common",
+      "set": "10E",
+      "setName": "Tenth Edition",
+      "text": "Target creature gets +3/+3 and gains flying until end of turn. (It can't be blocked except by creatures with flying or reach.)",
+      "flavor": "Only the warrior who can admit mortal weakness will be bolstered by immortal strength.",
+      "artist": "Mark Zug",
+      "number": "3",
+      "layout": "normal",
+      "multiverseid": "129711",
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129711&type=card",
+      "variations": ["c5655330-5131-5f40-9d3e-0549d88c6e9e"],
+      "foreignNames": [
+        {
+          "name": "Himmlischer Segen",
+          "text": "Eine Kreatur deiner Wahl erhält +3/+3 und Flugfähigkeit bis zum Ende des Zuges. (Sie kann außer von fliegenden Kreaturen und Kreaturen mit Reichweite nicht geblockt werden.)",
+          "type": "Hexerei",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148414&type=card",
+          "language": "German",
+          "multiverseid": null
+        },
+        {
+          "name": "Bendición angélica",
+          "text": "La criatura objetivo obtiene +3/+3 y gana la habilidad de volar hasta el final del turno. (No puede ser bloqueada excepto por criaturas que tengan la habilidad de volar o alcance.)",
+          "type": "Conjuro",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=150319&type=card",
+          "language": "Spanish",
+          "multiverseid": null
+        },
+        {
+          "name": "Bénédiction angélique",
+          "text": "La créature ciblée gagne +3/+3 et acquiert le vol jusqu'à la fin du tour. (Elle ne peut être bloquée que par des créatures avec le vol ou la portée.)",
+          "type": "Rituel",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149936&type=card",
+          "language": "French",
+          "multiverseid": null
+        },
+        {
+          "name": "Benedizione Angelica",
+          "text": "Una creatura bersaglio prende +3/+3 e ha volare fino alla fine del turno. (Non può essere bloccata tranne che da creature con volare o raggiungere.)",
+          "type": "Stregoneria",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148797&type=card",
+          "language": "Italian",
+          "multiverseid": null
+        },
+        {
+          "name": "天使の祝福",
+          "text": "クリーチャー１体を対象とする。それはターン終了時まで＋３/＋３の修整を受けるとともに飛行を得る。 （それは飛行や到達を持たないクリーチャーによってブロックされない。）",
+          "type": "ソーサリー",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148031&type=card",
+          "language": "Japanese",
+          "multiverseid": null
+        },
+        {
+          "name": "Bênção Angelical",
+          "text": "A criatura alvo recebe +3/+3 e ganha a habilidade de voar até o final do turno. (Ela só pode ser bloqueada por criaturas com a habilidade de voar ou alcance.)",
+          "type": "Feitiço",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149553&type=card",
+          "language": "Portuguese (Brazil)",
+          "multiverseid": null
+        },
+        {
+          "name": "Благословение Ангела",
+          "text": "Целевое существо получает +3/+3 и Полет до конца хода. (Оно может быть заблокировано только существом с Полетом или Захватом.)",
+          "type": "Волшебство",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149170&type=card",
+          "language": "Russian",
+          "multiverseid": null
+        },
+        {
+          "name": "天使的祝福",
+          "text": "目标生物得+3/+3并获得飞行异能直到回合结束。 （只有具飞行或延势异能的生物才能阻挡它。）",
+          "type": "法术",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=147648&type=card",
+          "language": "Chinese Simplified",
+          "multiverseid": null
+        }
+      ],
+      "printings": [
+        "10E",
+        "9ED",
+        "EXO",
+        "P02",
+        "POR",
+        "PS11",
+        "S00",
+        "S99",
+        "TPR"
+      ],
+      "originalText": "Target creature gets +3/+3 and gains flying until end of turn. (It can't be blocked except by creatures with flying or reach.)",
+      "originalType": "Sorcery",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Duel",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Modern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Pauper",
+          "legality": "Legal"
+        },
+        {
+          "format": "Paupercommander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Penny",
+          "legality": "Legal"
+        },
+        {
+          "format": "Premodern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "55bd38ca-dc73-5c06-8f80-a6ddd2f44382"
+    },
+    {
+      "name": "Angelic Chorus",
+      "manaCost": "{3}{W}{W}",
+      "cmc": 5.0,
+      "colors": ["White"],
+      "colorIdentity": ["W"],
+      "type": "Enchantment",
+      "types": ["Enchantment"],
+      "rarity": "Rare",
+      "set": "10E",
+      "setName": "Tenth Edition",
+      "text": "Whenever a creature enters the battlefield under your control, you gain life equal to its toughness.",
+      "flavor": "The harmony of the glorious is a dirge to the wicked.",
+      "artist": "Jim Murray",
+      "number": "4",
+      "layout": "normal",
+      "multiverseid": "129710",
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129710&type=card",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "This does not trigger on a permanent being turned into a creature. That is just a permanent changing type, not something entering the battlefield."
+        },
+        {
+          "date": "2004-10-04",
+          "text": "Angelic Chorus does not trigger when creatures phase in or change controllers."
+        }
+      ],
+      "foreignNames": [
+        {
+          "name": "Choral der Engel",
+          "text": "Immer wenn ein Kreatur unter deiner Kontrolle ins Spiel kommt, erhältst du soviele Lebenspunkte dazu, wie ihre Widerstandskraft beträgt.",
+          "type": "Verzauberung",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148415&type=card",
+          "language": "German",
+          "multiverseid": null
+        },
+        {
+          "name": "Coro angélico",
+          "text": "Siempre que una criatura entre en juego bajo tu control, ganas una cantidad de vida igual a su resistencia.",
+          "type": "Encantamiento",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=150320&type=card",
+          "language": "Spanish",
+          "multiverseid": null
+        },
+        {
+          "name": "Chœur angélique",
+          "text": "À chaque fois qu'une créature arrive en jeu sous votre contrôle, vous gagnez autant de points de vie que son endurance.",
+          "type": "Enchantement",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149937&type=card",
+          "language": "French",
+          "multiverseid": null
+        },
+        {
+          "name": "Coro Angelico",
+          "text": "Ogniqualvolta una creatura entra in gioco sotto il tuo controllo, guadagni un ammontare di punti vita pari alla sua costituzione.",
+          "type": "Incantesimo",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148798&type=card",
+          "language": "Italian",
+          "multiverseid": null
+        },
+        {
+          "name": "天使の合唱",
+          "text": "いずれかのクリーチャーがあなたのコントロール下で場に出るたび、あなたはそれのタフネスに等しい点数のライフを得る。",
+          "type": "エンチャント",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148032&type=card",
+          "language": "Japanese",
+          "multiverseid": null
+        },
+        {
+          "name": "Coro Angelical",
+          "text": "Toda vez que uma criatura entra em jogo sob seu controle, você ganha uma quantidade de pontos de vida igual à resistência dela.",
+          "type": "Encantamento",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149554&type=card",
+          "language": "Portuguese (Brazil)",
+          "multiverseid": null
+        },
+        {
+          "name": "Хор Ангелов",
+          "text": "Каждый раз, когда в игру входит существо под вашим контролем, вы получаете количество жизни, равное его выносливости.",
+          "type": "Чары",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149171&type=card",
+          "language": "Russian",
+          "multiverseid": null
+        },
+        {
+          "name": "天使的合唱",
+          "text": "每当一个生物在你的操控下进场时，你获得等同于其防御力的生命。",
+          "type": "结界",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=147649&type=card",
+          "language": "Chinese Simplified",
+          "multiverseid": null
+        }
+      ],
+      "printings": ["10E", "BBD", "USG"],
+      "originalText": "Whenever a creature comes into play under your control, you gain life equal to its toughness.",
+      "originalType": "Enchantment",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Duel",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Modern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Penny",
+          "legality": "Legal"
+        },
+        {
+          "format": "Premodern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "3b77bb52-4181-57f5-b3cd-f3a15b95aa29"
+    },
+    {
+      "name": "Angelic Wall",
+      "manaCost": "{1}{W}",
+      "cmc": 2.0,
+      "colors": ["White"],
+      "colorIdentity": ["W"],
+      "type": "Creature — Wall",
+      "types": ["Creature"],
+      "subtypes": ["Wall"],
+      "rarity": "Common",
+      "set": "10E",
+      "setName": "Tenth Edition",
+      "text": "Defender (This creature can't attack.)\nFlying",
+      "flavor": "\"The Ancestor protects us in ways we can't begin to comprehend.\"\n—Mystic elder",
+      "artist": "John Avon",
+      "number": "5",
+      "power": "0",
+      "toughness": "4",
+      "layout": "normal",
+      "multiverseid": "129671",
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129671&type=card",
+      "variations": ["60b93108-8790-591b-844e-c3d311698767"],
+      "foreignNames": [
+        {
+          "name": "Mauer der Engel",
+          "text": "Verteidiger, Fliegend (Diese Kreatur kann nicht angreifen und kann fliegende Kreaturen blocken.)",
+          "type": "Kreatur — Mauer",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148416&type=card",
+          "language": "German",
+          "multiverseid": null
+        },
+        {
+          "name": "Muro angelical",
+          "text": "Defensor, vuela. (Esta criatura no puede atacar y puede bloquear criaturas que vuelan.)",
+          "type": "Criatura — Muro",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=150321&type=card",
+          "language": "Spanish",
+          "multiverseid": null
+        },
+        {
+          "name": "Mur angélique",
+          "text": "Défenseur, vol (Cette créature ne peut pas attaquer et elle peut bloquer les créatures avec le vol.)",
+          "type": "Créature : mur",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149938&type=card",
+          "language": "French",
+          "multiverseid": null
+        },
+        {
+          "name": "Muro Angelico",
+          "text": "Difensore, volare (Questa creatura non può attaccare, e può bloccare le creature con volare.)",
+          "type": "Creatura — Muro",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148799&type=card",
+          "language": "Italian",
+          "multiverseid": null
+        },
+        {
+          "name": "天使の壁",
+          "text": "防衛、飛行 （このクリーチャーは攻撃できず、飛行を持つクリーチャーをブロックできる。）",
+          "type": "クリーチャー — 壁",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148033&type=card",
+          "language": "Japanese",
+          "multiverseid": null
+        },
+        {
+          "name": "Barreira Angelical",
+          "text": "Defensor, voar (Esta criatura não pode atacar, e pode bloquear criaturas com a habilidade de voar.)",
+          "type": "Criatura — Barreira",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149555&type=card",
+          "language": "Portuguese (Brazil)",
+          "multiverseid": null
+        },
+        {
+          "name": "Стена Ангела",
+          "text": "Защитник, Полет (Это существо не может атаковать и может блокировать существа с Полетом.)",
+          "type": "Существо — Стена",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149172&type=card",
+          "language": "Russian",
+          "multiverseid": null
+        },
+        {
+          "name": "天使圣墙",
+          "text": "守军，飞行（此生物不能攻击，且能阻挡具飞行异能的生物。）",
+          "type": "生物～墙",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=147650&type=card",
+          "language": "Chinese Simplified",
+          "multiverseid": null
+        }
+      ],
+      "printings": ["10E", "AVR", "M14", "ODY", "P02"],
+      "originalText": "Defender, flying (This creature can't attack, and it can block creatures with flying.)",
+      "originalType": "Creature - Wall",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Duel",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Modern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Pauper",
+          "legality": "Legal"
+        },
+        {
+          "format": "Paupercommander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Penny",
+          "legality": "Legal"
+        },
+        {
+          "format": "Pioneer",
+          "legality": "Legal"
+        },
+        {
+          "format": "Premodern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "fadda48c-6226-5ac5-a2b9-e9170d2017cd"
+    },
+    {
+      "name": "Aura of Silence",
+      "manaCost": "{1}{W}{W}",
+      "cmc": 3.0,
+      "colors": ["White"],
+      "colorIdentity": ["W"],
+      "type": "Enchantment",
+      "types": ["Enchantment"],
+      "rarity": "Uncommon",
+      "set": "10E",
+      "setName": "Tenth Edition",
+      "text": "Artifact and enchantment spells your opponents cast cost {2} more to cast.\nSacrifice Aura of Silence: Destroy target artifact or enchantment.",
+      "flavor": "Not all silences are easily broken.",
+      "artist": "D. Alexander Gregory",
+      "number": "6",
+      "layout": "normal",
+      "multiverseid": "132127",
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=132127&type=card",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "Aura of Silence affects all opponents in a multiplayer game."
+        }
+      ],
+      "foreignNames": [
+        {
+          "name": "Aura des Schweigens",
+          "text": "Artefakt- und Verzauberungszaubersprüche, die deine Gegner spielen, kosten beim Ausspielen {2} mehr.\nOpfere die Aura des Schweigens: Zerstöre ein Artefakt oder eine Verzauberung deiner Wahl.",
+          "type": "Verzauberung",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148422&type=card",
+          "language": "German",
+          "multiverseid": null
+        },
+        {
+          "name": "Aura de silencio",
+          "text": "A tus oponentes les cuesta {2} más jugar hechizos de artefacto y de encantamiento.\nSacrificar el Aura de silencio: Destruye el artefacto o encantamiento objetivo.",
+          "type": "Encantamiento",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=150322&type=card",
+          "language": "Spanish",
+          "multiverseid": null
+        },
+        {
+          "name": "Aura de silence",
+          "text": "Les sorts d'artefact et d'enchantement que vos adversaires jouent coûtent {2} de plus à jouer.\nSacrifiez l'Aura de silence : Détruisez l'artefact ou l'enchantement ciblé.",
+          "type": "Enchantement",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149939&type=card",
+          "language": "French",
+          "multiverseid": null
+        },
+        {
+          "name": "Aura di Silenzio",
+          "text": "Le magie artefatto e incantesimo che giocano i tuoi avversari costano {2} in più per essere giocate.\nSacrifica l'Aura di Silenzio: Distruggi un artefatto o un incantesimo bersaglio.",
+          "type": "Incantesimo",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148805&type=card",
+          "language": "Italian",
+          "multiverseid": null
+        },
+        {
+          "name": "沈黙のオーラ",
+          "text": "あなたの対戦相手がプレイするアーティファクト呪文やエンチャント呪文は、それをプレイするためのコストが{2}多くなる。\n沈黙のオーラを生け贄に捧げる：アーティファクト１つかエンチャント１つを対象とし、それを破壊する。",
+          "type": "エンチャント",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148039&type=card",
+          "language": "Japanese",
+          "multiverseid": null
+        },
+        {
+          "name": "Aura de Silêncio",
+          "text": "As mágicas de artefato e de encantamento que seus oponentes jogam custam {2} a mais para serem jogadas.\nSacrifique Aura de Silêncio: Destrua o artefato ou encantamento alvo.",
+          "type": "Encantamento",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149556&type=card",
+          "language": "Portuguese (Brazil)",
+          "multiverseid": null
+        },
+        {
+          "name": "Аура Молчания",
+          "text": "Заклинания артефактов и чар, разыгрываемые вашими оппонентами, стоят на {2} больше.\nПожертвуйте Ауру Молчания: Уничтожьте целевой артефакт или чары.",
+          "type": "Чары",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149173&type=card",
+          "language": "Russian",
+          "multiverseid": null
+        },
+        {
+          "name": "静寂灵气",
+          "text": "对手使用的神器和结界咒语费用增加{2}来使用。\n牺牲静寂灵气：消灭目标神器或结界。",
+          "type": "结界",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=147656&type=card",
+          "language": "Chinese Simplified",
+          "multiverseid": null
+        }
+      ],
+      "printings": ["10E", "C15", "F02", "MB1", "PRM", "TD0", "WC98", "WTH"],
+      "originalText": "Artifact and enchantment spells your opponents play cost {2} more to play.\nSacrifice Aura of Silence: Destroy target artifact or enchantment.",
+      "originalType": "Enchantment",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Duel",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Modern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Premodern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "fac6ad26-f8c2-51bd-9f6a-a1b0940b4cef"
+    },
+    {
+      "name": "Aven Cloudchaser",
+      "manaCost": "{3}{W}",
+      "cmc": 4.0,
+      "colors": ["White"],
+      "colorIdentity": ["W"],
+      "type": "Creature — Bird Soldier",
+      "types": ["Creature"],
+      "subtypes": ["Bird", "Soldier"],
+      "rarity": "Common",
+      "set": "10E",
+      "setName": "Tenth Edition",
+      "text": "Flying (This creature can't be blocked except by creatures with flying or reach.)\nWhen Aven Cloudchaser enters the battlefield, destroy target enchantment.",
+      "artist": "Justin Sweet",
+      "number": "7",
+      "power": "2",
+      "toughness": "2",
+      "layout": "normal",
+      "multiverseid": "129470",
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129470&type=card",
+      "variations": ["6adaf14d-43e3-521a-adf1-960c808e5b1a"],
+      "foreignNames": [
+        {
+          "name": "Avior-Wolkenjäger",
+          "text": "Fliegend (Diese Kreatur kann außer von fliegenden Kreaturen und Kreaturen mit Reichweite nicht geblockt werden.)\nWenn der Avior-Wolkenjäger ins Spiel kommt, zerstöre eine Verzauberung deiner Wahl.",
+          "type": "Kreatur — Vogel, Soldat",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148424&type=card",
+          "language": "German",
+          "multiverseid": null
+        },
+        {
+          "name": "Cazanubes aven",
+          "text": "Vuela. (Esta criatura no puede ser bloqueada excepto por criaturas que tengan la habilidad de volar o alcance.)\nCuando el Cazanubes aven entre en juego, destruye el encantamiento objetivo.",
+          "type": "Criatura — Soldado ave",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=150323&type=card",
+          "language": "Spanish",
+          "multiverseid": null
+        },
+        {
+          "name": "Avemain chasse-nuage",
+          "text": "Vol (Cette créature ne peut être bloquée que par des créatures avec le vol ou la portée.)\nQuand l'Avemain chasse-nuage arrive en jeu, détruisez l'enchantement ciblé.",
+          "type": "Créature : oiseau et soldat",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149940&type=card",
+          "language": "French",
+          "multiverseid": null
+        },
+        {
+          "name": "Caccianubi Aviano",
+          "text": "Volare (Questa creatura non può essere bloccata tranne che da creature con volare o raggiungere.)\nQuando il Caccianubi Aviano entra in gioco, distruggi un incantesimo bersaglio.",
+          "type": "Creatura — Uccello Soldato",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148807&type=card",
+          "language": "Italian",
+          "multiverseid": null
+        },
+        {
+          "name": "雲を追うエイヴン",
+          "text": "飛行 （このクリーチャーは飛行や到達を持たないクリーチャーによってブロックされない。）\n雲を追うエイヴンが場に出たとき、エンチャント１つを対象とし、それを破壊する。",
+          "type": "クリーチャー — 鳥・兵士",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148041&type=card",
+          "language": "Japanese",
+          "multiverseid": null
+        },
+        {
+          "name": "Caça-Nuvens Aviano",
+          "text": "Voar (Esta criatura só pode ser bloqueada por criaturas com a habilidade de voar ou alcance.)\nQuando Caça-Nuvens Aviano entrar em jogo, destrua o encantamento alvo.",
+          "type": "Criatura — Ave Soldado",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149557&type=card",
+          "language": "Portuguese (Brazil)",
+          "multiverseid": null
+        },
+        {
+          "name": "Загонщик Облаков",
+          "text": "Полет (Это существо может быть заблокировано только существом с Полетом или Захватом.)\nКогда Загонщик Облаков входит в игру, уничтожьте целевые чары.",
+          "type": "Существо — Птица Солдат",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149174&type=card",
+          "language": "Russian",
+          "multiverseid": null
+        },
+        {
+          "name": "艾文逐云战士",
+          "text": "飞行（只有具飞行或延势异能的生物才能阻挡它。）\n当艾文逐云战士进场时，消灭目标结界。",
+          "type": "生物～鸟／士兵",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=147658&type=card",
+          "language": "Chinese Simplified",
+          "multiverseid": null
+        }
+      ],
+      "printings": ["10E", "8ED", "9ED", "ODY"],
+      "originalText": "Flying (This creature can't be blocked except by creatures with flying or reach.)\nWhen Aven Cloudchaser comes into play, destroy target enchantment.",
+      "originalType": "Creature - Bird Soldier",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Duel",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Modern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Pauper",
+          "legality": "Legal"
+        },
+        {
+          "format": "Paupercommander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Penny",
+          "legality": "Legal"
+        },
+        {
+          "format": "Premodern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "8ac972b5-9f6e-5cc8-91c3-b9a40a98232e"
+    },
+    {
+      "name": "Ballista Squad",
+      "manaCost": "{3}{W}",
+      "cmc": 4.0,
+      "colors": ["White"],
+      "colorIdentity": ["W"],
+      "type": "Creature — Human Rebel",
+      "types": ["Creature"],
+      "subtypes": ["Human", "Rebel"],
+      "rarity": "Uncommon",
+      "set": "10E",
+      "setName": "Tenth Edition",
+      "text": "{X}{W}, {T}: Ballista Squad deals X damage to target attacking or blocking creature.",
+      "flavor": "The perfect antidote for a tightly packed formation.",
+      "artist": "Matthew D. Wilson",
+      "number": "8",
+      "power": "2",
+      "toughness": "2",
+      "layout": "normal",
+      "multiverseid": "129477",
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129477&type=card",
+      "foreignNames": [
+        {
+          "name": "Ballistaeinheit",
+          "text": "{X}{W}, {T}: Die Ballistaeinheit fügt einer angreifenden oder blockenden Kreatur deiner Wahl X Schadenspunkte zu.",
+          "type": "Kreatur — Mensch, Rebell",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148427&type=card",
+          "language": "German",
+          "multiverseid": null
+        },
+        {
+          "name": "Escuadra de ballesta",
+          "text": "{X}{W}, {T}: La Escuadra de ballesta hace X puntos de daño a la criatura atacante o bloqueadora objetivo.",
+          "type": "Criatura — Rebelde humano",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=150324&type=card",
+          "language": "Spanish",
+          "multiverseid": null
+        },
+        {
+          "name": "Escouade de balistes",
+          "text": "{X}{W}, {T} : L'Escouade de balistes inflige X blessures à la créature attaquante ou bloqueuse ciblée.",
+          "type": "Créature : humain et rebelle",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149941&type=card",
+          "language": "French",
+          "multiverseid": null
+        },
+        {
+          "name": "Unità Balista",
+          "text": "{X}{W}, {T}: L'Unità Balista infligge X danni a una creatura attaccante o bloccante bersaglio.",
+          "type": "Creatura — Ribelle Umano",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148810&type=card",
+          "language": "Italian",
+          "multiverseid": null
+        },
+        {
+          "name": "バリスタ班",
+          "text": "{X}{W}, {T}：攻撃かブロックしているクリーチャー１体を対象とする。バリスタ班はそれにＸ点のダメージを与える。",
+          "type": "クリーチャー — 人間・レベル",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148044&type=card",
+          "language": "Japanese",
+          "multiverseid": null
+        },
+        {
+          "name": "Esquadrão de Balista",
+          "text": "{X}{W}, {T}: Esquadrão de Balista causa X pontos de dano à criatura alvo atacante ou bloqueadora.",
+          "type": "Criatura — Humano Rebelde",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149558&type=card",
+          "language": "Portuguese (Brazil)",
+          "multiverseid": null
+        },
+        {
+          "name": "Баллиста",
+          "text": "{X}{W}, {T}: Баллиста наносит X повреждений целевому атакующему или блокирующему существу.",
+          "type": "Существо — Человек Повстанец",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149175&type=card",
+          "language": "Russian",
+          "multiverseid": null
+        },
+        {
+          "name": "巨弩小队",
+          "text": "{X}{W}，{T}：巨弩小队对目标进行攻击或阻挡的生物造成X点伤害。",
+          "type": "生物～人类／反抗军",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=147661&type=card",
+          "language": "Chinese Simplified",
+          "multiverseid": null
+        }
+      ],
+      "printings": ["10E", "9ED", "MMQ"],
+      "originalText": "{X}{W}, {T}: Ballista Squad deals X damage to target attacking or blocking creature.",
+      "originalType": "Creature - Human Rebel",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Duel",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Modern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Paupercommander",
+          "legality": "Restricted"
+        },
+        {
+          "format": "Penny",
+          "legality": "Legal"
+        },
+        {
+          "format": "Premodern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "a69b404f-144a-5317-b10e-7d9dce135b24"
+    },
+    {
+      "name": "Bandage",
+      "manaCost": "{W}",
+      "cmc": 1.0,
+      "colors": ["White"],
+      "colorIdentity": ["W"],
+      "type": "Instant",
+      "types": ["Instant"],
+      "rarity": "Common",
+      "set": "10E",
+      "setName": "Tenth Edition",
+      "text": "Prevent the next 1 damage that would be dealt to any target this turn.\nDraw a card.",
+      "flavor": "Life is measured in inches. To a healer, every one of those inches is precious.",
+      "artist": "Rebecca Guay",
+      "number": "9",
+      "layout": "normal",
+      "multiverseid": "132106",
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=132106&type=card",
+      "rulings": [
+        {
+          "date": "2007-07-15",
+          "text": "You draw the card when Bandage resolves, not when the damage is actually prevented."
+        }
+      ],
+      "foreignNames": [
+        {
+          "name": "Verband",
+          "text": "Verhindere den nächsten 1 Schadenspunkt, der in diesem Zug einer Kreatur oder einem Spieler deiner Wahl zugefügt würde.\nZiehe eine Karte.",
+          "type": "Spontanzauber",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148428&type=card",
+          "language": "German",
+          "multiverseid": null
+        },
+        {
+          "name": "Vendaje",
+          "text": "Prevén el siguiente 1 punto de daño que se le fuera a hacer a la criatura o jugador objetivo este turno.\nRoba una carta.",
+          "type": "Instantáneo",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=150325&type=card",
+          "language": "Spanish",
+          "multiverseid": null
+        },
+        {
+          "name": "Bandage",
+          "text": "Prévenez, ce tour-ci, la prochaine 1 blessure qui devrait être infligée à une cible, créature ou joueur.\nPiochez une carte.",
+          "type": "Éphémère",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149942&type=card",
+          "language": "French",
+          "multiverseid": null
+        },
+        {
+          "name": "Fasciatura",
+          "text": "Previeni il prossimo punto danno che verrebbe inflitto a una creatura o a un giocatore bersaglio in questo turno.\nPesca una carta.",
+          "type": "Istantaneo",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148811&type=card",
+          "language": "Italian",
+          "multiverseid": null
+        },
+        {
+          "name": "目かくし",
+          "text": "クリーチャー１体かプレイヤー１人を対象とする。このターン、次にそれに与えられるダメージを１点軽減する。\nカードを１枚引く。",
+          "type": "インスタント",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148045&type=card",
+          "language": "Japanese",
+          "multiverseid": null
+        },
+        {
+          "name": "Atadura",
+          "text": "Previna o próximo 1 ponto de dano que seria causado à criatura ou ao jogador alvo neste turno.\nCompre um card.",
+          "type": "Mágica Instantânea",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149559&type=card",
+          "language": "Portuguese (Brazil)",
+          "multiverseid": null
+        },
+        {
+          "name": "Повязка",
+          "text": "Предотвратите следующее 1 повреждение, которое будет нанесено целевому существу или игроку в этом ходу.\nВозьмите карту.",
+          "type": "Мгновенное заклинание",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149176&type=card",
+          "language": "Russian",
+          "multiverseid": null
+        },
+        {
+          "name": "包扎",
+          "text": "于本回合中，防止接下来将对目标生物或牌手造成的1点伤害。\n抓一张牌。",
+          "type": "瞬间",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=147662&type=card",
+          "language": "Chinese Simplified",
+          "multiverseid": null
+        }
+      ],
+      "printings": ["10E", "STH", "TPR"],
+      "originalText": "Prevent the next 1 damage that would be dealt to target creature or player this turn.\nDraw a card.",
+      "originalType": "Instant",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Duel",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Modern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Pauper",
+          "legality": "Legal"
+        },
+        {
+          "format": "Paupercommander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Penny",
+          "legality": "Legal"
+        },
+        {
+          "format": "Premodern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "6d268c95-c176-5766-9a46-c14f739aba1c"
+    },
+    {
+      "name": "Beacon of Immortality",
+      "manaCost": "{5}{W}",
+      "cmc": 6.0,
+      "colors": ["White"],
+      "colorIdentity": ["W"],
+      "type": "Instant",
+      "types": ["Instant"],
+      "rarity": "Rare",
+      "set": "10E",
+      "setName": "Tenth Edition",
+      "text": "Double target player's life total. Shuffle Beacon of Immortality into its owner's library.",
+      "flavor": "The cave floods with light. A thousand rays shine forth and meld into one.",
+      "artist": "Rob Alexander",
+      "number": "10",
+      "layout": "normal",
+      "multiverseid": "130553",
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=130553&type=card",
+      "rulings": [
+        {
+          "date": "2007-02-01",
+          "text": "If you double a negative life total, you do the real math. A life total of -10 becomes -20."
+        },
+        {
+          "date": "2007-07-15",
+          "text": "Beacon of Immortality’s effect counts as life gain (or life loss, if the life total was negative) for effects that trigger on or replace life gain (or life loss)."
+        },
+        {
+          "date": "2007-07-15",
+          "text": "If a Beacon is countered or doesn’t resolve, it’s put into its owner’s graveyard, not shuffled into the library."
+        }
+      ],
+      "foreignNames": [
+        {
+          "name": "Leitstern der Unsterblichkeit",
+          "text": "Verdopple die Lebenspunkte eines Spielers deiner Wahl. Mische den Leitstern der Unsterblichkeit in die Bibliothek seines Besitzers.",
+          "type": "Spontanzauber",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148431&type=card",
+          "language": "German",
+          "multiverseid": null
+        },
+        {
+          "name": "Faro de inmortalidad",
+          "text": "Duplica el total de vidas del jugador objetivo. Baraja el Faro de inmortalidad en la biblioteca de su propietario.",
+          "type": "Instantáneo",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=150326&type=card",
+          "language": "Spanish",
+          "multiverseid": null
+        },
+        {
+          "name": "Flambeau de l'Immortalité",
+          "text": "Doublez le total de points de vie du joueur ciblé. Mélangez le Flambeau de l'Immortalité dans la bibliothèque de son propriétaire.",
+          "type": "Éphémère",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149943&type=card",
+          "language": "French",
+          "multiverseid": null
+        },
+        {
+          "name": "Faro dell'Immortalità",
+          "text": "Raddoppia i punti vita di un giocatore bersaglio. Rimescola il Faro dell'Immortalità nel grimorio del suo proprietario.",
+          "type": "Istantaneo",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148814&type=card",
+          "language": "Italian",
+          "multiverseid": null
+        },
+        {
+          "name": "不死の標",
+          "text": "プレイヤー１人を対象とし、そのプレイヤーのライフの総量を２倍にする。 不死の標をオーナーのライブラリーに加えて切り直す。",
+          "type": "インスタント",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148048&type=card",
+          "language": "Japanese",
+          "multiverseid": null
+        },
+        {
+          "name": "Guia da Imortalidade",
+          "text": "Duplique o total de pontos de vida do jogador alvo. Embaralhe Guia da Imortalidade no grimório de seu dono.",
+          "type": "Mágica Instantânea",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149560&type=card",
+          "language": "Portuguese (Brazil)",
+          "multiverseid": null
+        },
+        {
+          "name": "Маяк Бессмертия",
+          "text": "Удвойте количество жизни целевого игрока. Втасуйте Маяк Бессмертия в библиотеку его владельца.",
+          "type": "Мгновенное заклинание",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149177&type=card",
+          "language": "Russian",
+          "multiverseid": null
+        },
+        {
+          "name": "永生信标",
+          "text": "将目标牌手的总生命加倍。 将永生信标洗入其拥有者的牌库。",
+          "type": "瞬间",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=147665&type=card",
+          "language": "Chinese Simplified",
+          "multiverseid": null
+        }
+      ],
+      "printings": ["10E", "5DN", "E02", "MB1"],
+      "originalText": "Double target player's life total. Shuffle Beacon of Immortality into its owner's library.",
+      "originalType": "Instant",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Duel",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Modern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Penny",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "56f4935b-f6c5-59b9-88bf-9bcce20247ce"
+    },
+    {
+      "name": "Benalish Knight",
+      "manaCost": "{2}{W}",
+      "cmc": 3.0,
+      "colors": ["White"],
+      "colorIdentity": ["W"],
+      "type": "Creature — Human Knight",
+      "types": ["Creature"],
+      "subtypes": ["Human", "Knight"],
+      "rarity": "Common",
+      "set": "10E",
+      "setName": "Tenth Edition",
+      "text": "Flash (You may cast this spell any time you could cast an instant.)\nFirst strike (This creature deals combat damage before creatures without first strike.)",
+      "flavor": "\"We called them 'armored lightning.'\"\n—Gerrard of the *Weatherlight*",
+      "artist": "Zoltan Boros & Gabor Szikszai",
+      "number": "11",
+      "power": "2",
+      "toughness": "2",
+      "layout": "normal",
+      "multiverseid": "136279",
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=136279&type=card",
+      "variations": ["0d2a4e1d-cc12-5675-8044-9a7bc7d60050"],
+      "foreignNames": [
+        {
+          "name": "Benalischer Ritter",
+          "text": "Aufblitzen (Du kannst diesen Zauberspruch zu jedem Zeitpunkt spielen, zu dem du einen Spontanzauber spielen könntest.)\nErstschlag (Diese Kreatur fügt Kampfschaden vor Kreaturen ohne Erstschlag zu.)",
+          "type": "Kreatur — Mensch, Ritter",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148433&type=card",
+          "language": "German",
+          "multiverseid": null
+        },
+        {
+          "name": "Caballero benalita",
+          "text": "Destello. (Puedes jugar este hechizo en cualquier momento en que pudieras jugar un instantáneo.)\nDaña primero. (Esta criatura hace daño de combate antes que las criaturas sin la habilidad de dañar primero.)",
+          "type": "Criatura — Caballero humano",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=150327&type=card",
+          "language": "Spanish",
+          "multiverseid": null
+        },
+        {
+          "name": "Chevalier bénalian",
+          "text": "Flash (Vous pouvez jouer ce sort à tout moment où vous pourriez jouer un éphémère.)\nInitiative (Cette créature inflige des blessures de combat avant les créatures sans l'initiative.)",
+          "type": "Créature : humain et chevalier",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149944&type=card",
+          "language": "French",
+          "multiverseid": null
+        },
+        {
+          "name": "Cavaliere di Benalia",
+          "text": "Lampo (Puoi giocare questa magia in ogni momento in cui potresti giocare un istantaneo.)\nAttacco improvviso (Questa creatura infligge danno da combattimento prima delle creature senza attacco improvviso.)",
+          "type": "Creatura — Cavaliere Umano",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148816&type=card",
+          "language": "Italian",
+          "multiverseid": null
+        },
+        {
+          "name": "ベナリアの騎士",
+          "text": "瞬速 （あなたはこの呪文を、あなたがインスタントをプレイできるときならいつでもプレイしてよい。）\n先制攻撃 （このクリーチャーは先制攻撃を持たないクリーチャーよりも先に戦闘ダメージを与える。）",
+          "type": "クリーチャー — 人間・騎士",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148050&type=card",
+          "language": "Japanese",
+          "multiverseid": null
+        },
+        {
+          "name": "Cavaleiro de Benália",
+          "text": "Lampejo (Você poderá jogar esta mágica a qualquer momento em que puder jogar uma mágica instantânea.)\nIniciativa (Esta criatura causa dano de combate antes de criaturas sem a habilidade de iniciativa.)",
+          "type": "Criatura — Humano Cavaleiro",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149561&type=card",
+          "language": "Portuguese (Brazil)",
+          "multiverseid": null
+        },
+        {
+          "name": "Беналийский Рыцарь",
+          "text": "Миг (Вы можете разыграть это заклинание при любой возможности разыгрывать мгновенные заклинания.)\nПервый удар (Это существо наносит боевые повреждения раньше существ без Первого удара.)",
+          "type": "Существо — Человек Рыцарь",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149178&type=card",
+          "language": "Russian",
+          "multiverseid": null
+        },
+        {
+          "name": "宾纳里亚骑士",
+          "text": "闪现（你可以于你能够使用瞬间的时机下使用此咒语。）\n先攻（此生物会比不具先攻异能的生物提前造成战斗伤害。）",
+          "type": "生物～人类／骑士",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=147667&type=card",
+          "language": "Chinese Simplified",
+          "multiverseid": null
+        }
+      ],
+      "printings": ["10E", "ATH", "WTH"],
+      "originalText": "Flash (You may play this spell any time you could play an instant.)\nFirst strike (This creature deals combat damage before creatures without first strike.)",
+      "originalType": "Creature - Human Knight",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Duel",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Modern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Pauper",
+          "legality": "Legal"
+        },
+        {
+          "format": "Paupercommander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Penny",
+          "legality": "Legal"
+        },
+        {
+          "format": "Premodern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "62365fbb-af07-5c2a-976d-e3092bdfc317"
+    },
+    {
+      "name": "Cho-Manno, Revolutionary",
+      "manaCost": "{2}{W}{W}",
+      "cmc": 4.0,
+      "colors": ["White"],
+      "colorIdentity": ["W"],
+      "type": "Legendary Creature — Human Rebel",
+      "supertypes": ["Legendary"],
+      "types": ["Creature"],
+      "subtypes": ["Human", "Rebel"],
+      "rarity": "Rare",
+      "set": "10E",
+      "setName": "Tenth Edition",
+      "text": "Prevent all damage that would be dealt to Cho-Manno, Revolutionary.",
+      "flavor": "\"Mercadia's masks can no longer hide the truth. Our day has come at last.\"",
+      "artist": "Steven Belledin",
+      "number": "12",
+      "power": "2",
+      "toughness": "2",
+      "layout": "normal",
+      "multiverseid": "130554",
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=130554&type=card",
+      "foreignNames": [
+        {
+          "name": "Cho-Manno",
+          "text": "Verhindere allen Schaden, der Cho-Manno zugefügt würde.",
+          "type": "Legendäre Kreatur — Mensch, Rebell",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148449&type=card",
+          "language": "German",
+          "multiverseid": null
+        },
+        {
+          "name": "Cho-Manno, revolucionario",
+          "text": "Prevén todo el daño que fuera a ser hecho a Cho-Manno, revolucionario.",
+          "type": "Criatura legendaria — Rebelde humano",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=150328&type=card",
+          "language": "Spanish",
+          "multiverseid": null
+        },
+        {
+          "name": "Cho-Manno, révolutionnaire",
+          "text": "Prévenez toutes les blessures qui devraient être infligées à Cho-Manno, révolutionnaire.",
+          "type": "Créature légendaire : humain et rebelle",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149945&type=card",
+          "language": "French",
+          "multiverseid": null
+        },
+        {
+          "name": "Cho-Manno, Rivoluzionario",
+          "text": "Previeni tutto il danno che verrebbe inflitto a Cho-Manno, Rivoluzionario.",
+          "type": "Creatura Leggendaria — Ribelle Umano",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148832&type=card",
+          "language": "Italian",
+          "multiverseid": null
+        },
+        {
+          "name": "革命家チョー＝マノ",
+          "text": "革命家チョー＝マノに与えられるすべてのダメージを軽減し、０にする。",
+          "type": "伝説のクリーチャー — 人間・レベル",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148066&type=card",
+          "language": "Japanese",
+          "multiverseid": null
+        },
+        {
+          "name": "Cho-Manno, Revolucionário",
+          "text": "Previna todo o dano que seria causado a Cho-Manno, Revolucionário.",
+          "type": "Criatura Lendária — Humano Rebelde",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149562&type=card",
+          "language": "Portuguese (Brazil)",
+          "multiverseid": null
+        },
+        {
+          "name": "Чо-Манно, Революционер",
+          "text": "Предотвратите все повреждения, которые будут нанесены Чо-Манно, Революционеру.",
+          "type": "Легендарное Существо — Человек Повстанец",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149179&type=card",
+          "language": "Russian",
+          "multiverseid": null
+        },
+        {
+          "name": "革命家柯·曼诺",
+          "text": "防止将对革命家柯·曼诺造成的所有伤害。",
+          "type": "传奇生物～人类／反抗军",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=147683&type=card",
+          "language": "Chinese Simplified",
+          "multiverseid": null
+        }
+      ],
+      "printings": ["10E", "MMQ", "PS11"],
+      "originalText": "Prevent all damage that would be dealt to Cho-Manno, Revolutionary.",
+      "originalType": "Legendary Creature - Human Rebel",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Duel",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Modern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Penny",
+          "legality": "Legal"
+        },
+        {
+          "format": "Premodern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "81daea6a-2735-5a46-a2da-b65a2ad5738f"
+    },
+    {
+      "name": "Condemn",
+      "manaCost": "{W}",
+      "cmc": 1.0,
+      "colors": ["White"],
+      "colorIdentity": ["W"],
+      "type": "Instant",
+      "types": ["Instant"],
+      "rarity": "Uncommon",
+      "set": "10E",
+      "setName": "Tenth Edition",
+      "text": "Put target attacking creature on the bottom of its owner's library. Its controller gains life equal to its toughness.",
+      "flavor": "\"No doubt the arbiters would put you away, after all the documents are signed. But I will have justice now!\"\n—Alovnek, Boros guildmage",
+      "artist": "Daren Bader",
+      "number": "13",
+      "layout": "normal",
+      "multiverseid": "130528",
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=130528&type=card",
+      "rulings": [
+        {
+          "date": "2010-08-15",
+          "text": "The affected creature’s last known existence on the battlefield is checked to determine its toughness."
+        }
+      ],
+      "foreignNames": [
+        {
+          "name": "Verdammen",
+          "text": "Lege eine angreifende Kreatur deiner Wahl unter die Bibliothek ihres Besitzers. Ihr Beherrscher erhält Lebenspunkte in Höhe ihrer Widerstandskraft dazu.",
+          "type": "Spontanzauber",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148460&type=card",
+          "language": "German",
+          "multiverseid": null
+        },
+        {
+          "name": "Condenar",
+          "text": "Pon la criatura atacante objetivo en el fondo de la biblioteca de su propietario. Su controlador gana vida igual a su resistencia.",
+          "type": "Instantáneo",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=150329&type=card",
+          "language": "Spanish",
+          "multiverseid": null
+        },
+        {
+          "name": "Condamnation",
+          "text": "Mettez la créature attaquante ciblée au-dessous de la bibliothèque de son propriétaire. Son contrôleur gagne un nombre de points de vie égal à son endurance.",
+          "type": "Éphémère",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149946&type=card",
+          "language": "French",
+          "multiverseid": null
+        },
+        {
+          "name": "Condannare",
+          "text": "Metti una creatura attaccante bersaglio in fondo al grimorio del suo proprietario. Il suo controllore guadagna un ammontare di punti vita pari alla sua costituzione.",
+          "type": "Istantaneo",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148843&type=card",
+          "language": "Italian",
+          "multiverseid": null
+        },
+        {
+          "name": "糾弾",
+          "text": "攻撃しているクリーチャー１体を対象とし、それをオーナーのライブラリーの一番下に置く。 それのコントローラーは、それのタフネスに等しい点数のライフを得る。",
+          "type": "インスタント",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148077&type=card",
+          "language": "Japanese",
+          "multiverseid": null
+        },
+        {
+          "name": "Condenar",
+          "text": "Coloque a criatura alvo atacante no fundo do grimório de seu dono. Seu controlador ganha uma quantidade de pontos de vida igual à resistência dela.",
+          "type": "Mágica Instantânea",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149563&type=card",
+          "language": "Portuguese (Brazil)",
+          "multiverseid": null
+        },
+        {
+          "name": "Осуждение",
+          "text": "Положите целевое атакующее существо в низ библиотеки его владельца. Контролирующий его игрок получает количество жизни, равное его выносливости.",
+          "type": "Мгновенное заклинание",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149180&type=card",
+          "language": "Russian",
+          "multiverseid": null
+        },
+        {
+          "name": "判罪",
+          "text": "将目标进行攻击的生物置于其拥有者的牌库底。 其操控者获得等同于其防御力的生命。",
+          "type": "瞬间",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=147694&type=card",
+          "language": "Chinese Simplified",
+          "multiverseid": null
+        }
+      ],
+      "printings": [
+        "10E",
+        "C14",
+        "C17",
+        "CMR",
+        "DDL",
+        "DIS",
+        "M11",
+        "P07",
+        "PRM",
+        "PS11",
+        "TD0",
+        "TD2",
+        "ZNC"
+      ],
+      "originalText": "Put target attacking creature on the bottom of its owner's library. Its controller gains life equal to its toughness.",
+      "originalType": "Instant",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Duel",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Modern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Penny",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "7fef665c-36a1-5f7a-9299-cf8938708710"
+    },
+    {
+      "name": "Demystify",
+      "manaCost": "{W}",
+      "cmc": 1.0,
+      "colors": ["White"],
+      "colorIdentity": ["W"],
+      "type": "Instant",
+      "types": ["Instant"],
+      "rarity": "Common",
+      "set": "10E",
+      "setName": "Tenth Edition",
+      "text": "Destroy target enchantment.",
+      "flavor": "\"Illusion is a crutch for those with no grounding in reality.\"\n—Cho-Manno",
+      "artist": "Christopher Rush",
+      "number": "14",
+      "layout": "normal",
+      "multiverseid": "129524",
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129524&type=card",
+      "foreignNames": [
+        {
+          "name": "Entmystifizieren",
+          "text": "Zerstöre eine Verzauberung deiner Wahl.",
+          "type": "Spontanzauber",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148476&type=card",
+          "language": "German",
+          "multiverseid": null
+        },
+        {
+          "name": "Desmitificar",
+          "text": "Destruye el encantamiento objetivo.",
+          "type": "Instantáneo",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=150330&type=card",
+          "language": "Spanish",
+          "multiverseid": null
+        },
+        {
+          "name": "Démystification",
+          "text": "Détruisez l'enchantement ciblé.",
+          "type": "Éphémère",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149947&type=card",
+          "language": "French",
+          "multiverseid": null
+        },
+        {
+          "name": "Demistificare",
+          "text": "Distruggi un incantesimo bersaglio.",
+          "type": "Istantaneo",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148859&type=card",
+          "language": "Italian",
+          "multiverseid": null
+        },
+        {
+          "name": "啓蒙",
+          "text": "エンチャント１つを対象とし、それを破壊する。",
+          "type": "インスタント",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148093&type=card",
+          "language": "Japanese",
+          "multiverseid": null
+        },
+        {
+          "name": "Desmistificar",
+          "text": "Destrua o encantamento alvo.",
+          "type": "Mágica Instantânea",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149564&type=card",
+          "language": "Portuguese (Brazil)",
+          "multiverseid": null
+        },
+        {
+          "name": "Прояснение",
+          "text": "Уничтожьте целевые чары.",
+          "type": "Мгновенное заклинание",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149181&type=card",
+          "language": "Russian",
+          "multiverseid": null
+        },
+        {
+          "name": "揭秘",
+          "text": "消灭目标结界。",
+          "type": "瞬间",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=147710&type=card",
+          "language": "Chinese Simplified",
+          "multiverseid": null
+        }
+      ],
+      "printings": ["10E", "8ED", "9ED", "M12", "ONS", "ROE", "XLN"],
+      "originalText": "Destroy target enchantment.",
+      "originalType": "Instant",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Duel",
+          "legality": "Legal"
+        },
+        {
+          "format": "Explorer",
+          "legality": "Legal"
+        },
+        {
+          "format": "Gladiator",
+          "legality": "Legal"
+        },
+        {
+          "format": "Historic",
+          "legality": "Legal"
+        },
+        {
+          "format": "Historicbrawl",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Modern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Pauper",
+          "legality": "Legal"
+        },
+        {
+          "format": "Paupercommander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Penny",
+          "legality": "Legal"
+        },
+        {
+          "format": "Pioneer",
+          "legality": "Legal"
+        },
+        {
+          "format": "Premodern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "2f9c211e-1869-5b3f-94ea-f73b7910a5af"
+    },
+    {
+      "name": "Field Marshal",
+      "manaCost": "{1}{W}{W}",
+      "cmc": 3.0,
+      "colors": ["White"],
+      "colorIdentity": ["W"],
+      "type": "Creature — Human Soldier",
+      "types": ["Creature"],
+      "subtypes": ["Human", "Soldier"],
+      "rarity": "Rare",
+      "set": "10E",
+      "setName": "Tenth Edition",
+      "text": "Other Soldier creatures get +1/+1 and have first strike. (They deal combat damage before creatures without first strike.)",
+      "flavor": "He is the only one who sees the patterns in the overlapping maps and conflicting reports.",
+      "artist": "Stephen Tappin",
+      "number": "15",
+      "power": "2",
+      "toughness": "2",
+      "layout": "normal",
+      "multiverseid": "135258",
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=135258&type=card",
+      "variations": ["6d6a31d5-a80b-5f31-9b46-2c2083a95581"],
+      "foreignNames": [
+        {
+          "name": "Feldmarschall",
+          "text": "Andere Soldatenkreaturen erhalten +1/+1 und Erstschlag. (Sie fügen Kampfschaden vor Kreaturen ohne Erstschlag zu.)",
+          "type": "Kreatur — Mensch, Soldat",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148502&type=card",
+          "language": "German",
+          "multiverseid": null
+        },
+        {
+          "name": "Mariscal de campo",
+          "text": "Las otras criaturas Soldado obtienen +1/+1 y tienen la habilidad de dañar primero. (Hacen daño de combate antes que las criaturas sin la habilidad de dañar primero.)",
+          "type": "Criatura — Soldado humano",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=150331&type=card",
+          "language": "Spanish",
+          "multiverseid": null
+        },
+        {
+          "name": "Général de campagne",
+          "text": "Les autres créatures Soldat gagnent +1/+1 et ont l'initiative. (Elles infligent des blessures de combat avant les créatures sans l'initiative.)",
+          "type": "Créature : humain et soldat",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149948&type=card",
+          "language": "French",
+          "multiverseid": null
+        },
+        {
+          "name": "Maresciallo di Campo",
+          "text": "Le altre creature Soldato prendono +1/+1 e hanno attacco improvviso. (Infliggono danno da combattimento prima delle creature senza attacco improvviso.)",
+          "type": "Creatura — Soldato Umano",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148885&type=card",
+          "language": "Italian",
+          "multiverseid": null
+        },
+        {
+          "name": "陸軍元帥",
+          "text": "他の兵士クリーチャーは＋１/＋１の修整を受けるとともに先制攻撃を持つ。 （それらは先制攻撃を持たないクリーチャーよりも先に戦闘ダメージを与える。）",
+          "type": "クリーチャー — 人間・兵士",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148119&type=card",
+          "language": "Japanese",
+          "multiverseid": null
+        },
+        {
+          "name": "Marechal-de-Campo",
+          "text": "As outras criaturas do tipo Soldado recebem +1/+1 e têm iniciativa. (Elas causam dano de combate antes de criaturas sem a habilidade de iniciativa.)",
+          "type": "Criatura — Humano Soldado",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149565&type=card",
+          "language": "Portuguese (Brazil)",
+          "multiverseid": null
+        },
+        {
+          "name": "Фельдмаршал",
+          "text": "Остальные существа Солдаты получают +1/+1 и имеют Первый удар. (Они наносят боевые повреждения раньше существ без Первого удара.)",
+          "type": "Существо — Человек Солдат",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149182&type=card",
+          "language": "Russian",
+          "multiverseid": null
+        },
+        {
+          "name": "元帅",
+          "text": "其它的士兵生物得+1/+1并具有先攻异能。 （它们会比不具先攻异能的生物提前造成战斗伤害。）",
+          "type": "生物～人类／士兵",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=147736&type=card",
+          "language": "Chinese Simplified",
+          "multiverseid": null
+        }
+      ],
+      "printings": ["10E", "CSP"],
+      "originalText": "Other Soldier creatures get +1/+1 and have first strike. (They deal combat damage before creatures without first strike.)",
+      "originalType": "Creature - Human Soldier",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Duel",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Modern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Penny",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "668c64a2-cecb-5f48-af16-d7a64814d3e7"
+    },
+    {
+      "name": "Ghost Warden",
+      "manaCost": "{1}{W}",
+      "cmc": 2.0,
+      "colors": ["White"],
+      "colorIdentity": ["W"],
+      "type": "Creature — Spirit",
+      "types": ["Creature"],
+      "subtypes": ["Spirit"],
+      "rarity": "Common",
+      "set": "10E",
+      "setName": "Tenth Edition",
+      "text": "{T}: Target creature gets +1/+1 until end of turn.",
+      "flavor": "\"I thought of fate as an iron lattice, intricate but rigidly unchangeable. That was until some force bent fate's bars to spare my life.\"\n—Ilromov, traveling storyteller",
+      "artist": "Ittoku",
+      "number": "16",
+      "power": "1",
+      "toughness": "1",
+      "layout": "normal",
+      "multiverseid": "132105",
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=132105&type=card",
+      "foreignNames": [
+        {
+          "name": "Geisterhafter Wächter",
+          "text": "{T}: Eine Kreatur deiner Wahl erhält +1/+1 bis zum Ende des Zuges.",
+          "type": "Kreatur — Geist",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148520&type=card",
+          "language": "German",
+          "multiverseid": null
+        },
+        {
+          "name": "Protectora fantasma",
+          "text": "{T}: La criatura objetivo obtiene +1/+1 hasta el final del turno.",
+          "type": "Criatura — Espíritu",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=150332&type=card",
+          "language": "Spanish",
+          "multiverseid": null
+        },
+        {
+          "name": "Garde fantôme",
+          "text": "{T} : La créature ciblée gagne +1/+1 jusqu'à la fin du tour.",
+          "type": "Créature : esprit",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149949&type=card",
+          "language": "French",
+          "multiverseid": null
+        },
+        {
+          "name": "Guardiana Fantasma",
+          "text": "{T}: Una creatura bersaglio prende +1/+1 fino alla fine del turno.",
+          "type": "Creatura — Spirito",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148903&type=card",
+          "language": "Italian",
+          "multiverseid": null
+        },
+        {
+          "name": "幽霊の管理人",
+          "text": "{T}：クリーチャー１体を対象とする。それはターン終了時まで＋１/＋１の修整を受ける。",
+          "type": "クリーチャー — スピリット",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148137&type=card",
+          "language": "Japanese",
+          "multiverseid": null
+        },
+        {
+          "name": "Carcereiro Fantasma",
+          "text": "{T}: A criatura alvo recebe +1/+1 até o final do turno.",
+          "type": "Criatura — Espírito",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149566&type=card",
+          "language": "Portuguese (Brazil)",
+          "multiverseid": null
+        },
+        {
+          "name": "Призрачный Хранитель",
+          "text": "{T}: Целевое существо получает +1/+1 до конца хода.",
+          "type": "Существо — Дух",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149183&type=card",
+          "language": "Russian",
+          "multiverseid": null
+        },
+        {
+          "name": "护持鬼影",
+          "text": "{T}：目标生物得+1/+1直到回合结束。",
+          "type": "生物～精怪",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=147754&type=card",
+          "language": "Chinese Simplified",
+          "multiverseid": null
+        }
+      ],
+      "printings": ["10E", "GPT"],
+      "originalText": "{T}: Target creature gets +1/+1 until end of turn.",
+      "originalType": "Creature - Spirit",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Duel",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Modern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Pauper",
+          "legality": "Legal"
+        },
+        {
+          "format": "Paupercommander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Penny",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "d68306e2-9877-5987-84b3-12b8234c8eec"
+    },
+    {
+      "name": "Glorious Anthem",
+      "manaCost": "{1}{W}{W}",
+      "cmc": 3.0,
+      "colors": ["White"],
+      "colorIdentity": ["W"],
+      "type": "Enchantment",
+      "types": ["Enchantment"],
+      "rarity": "Rare",
+      "set": "10E",
+      "setName": "Tenth Edition",
+      "text": "Creatures you control get +1/+1.",
+      "flavor": "Once heard, the battle song of an angel becomes part of the listener forever.",
+      "artist": "Kev Walker",
+      "number": "17",
+      "layout": "normal",
+      "multiverseid": "129572",
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129572&type=card",
+      "foreignNames": [
+        {
+          "name": "Glorreiche Hymne",
+          "text": "Kreaturen, die du kontrollierst, erhalten +1/+1.",
+          "type": "Verzauberung",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148523&type=card",
+          "language": "German",
+          "multiverseid": null
+        },
+        {
+          "name": "Himno glorioso",
+          "text": "Las criaturas que controlas obtienen +1/+1.",
+          "type": "Encantamiento",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=150333&type=card",
+          "language": "Spanish",
+          "multiverseid": null
+        },
+        {
+          "name": "Antienne glorieuse",
+          "text": "Les créatures que vous contrôlez gagnent +1/+1.",
+          "type": "Enchantement",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149950&type=card",
+          "language": "French",
+          "multiverseid": null
+        },
+        {
+          "name": "Inno Glorioso",
+          "text": "Le creature che controlli prendono +1/+1.",
+          "type": "Incantesimo",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148906&type=card",
+          "language": "Italian",
+          "multiverseid": null
+        },
+        {
+          "name": "栄光の頌歌",
+          "text": "あなたがコントロールするクリーチャーは＋１/＋１の修整を受ける。",
+          "type": "エンチャント",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148140&type=card",
+          "language": "Japanese",
+          "multiverseid": null
+        },
+        {
+          "name": "Antífona Gloriosa",
+          "text": "As criaturas que você controla recebem +1/+1.",
+          "type": "Encantamento",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149567&type=card",
+          "language": "Portuguese (Brazil)",
+          "multiverseid": null
+        },
+        {
+          "name": "Славный Гимн",
+          "text": "Существа под вашим контролем получают +1/+1.",
+          "type": "Чары",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149184&type=card",
+          "language": "Russian",
+          "multiverseid": null
+        },
+        {
+          "name": "辉煌的赞美诗",
+          "text": "由你操控的生物得+1/+1。",
+          "type": "结界",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=147757&type=card",
+          "language": "Chinese Simplified",
+          "multiverseid": null
+        }
+      ],
+      "printings": [
+        "10E",
+        "7ED",
+        "8ED",
+        "9ED",
+        "M21",
+        "PJAS",
+        "PJJT",
+        "PJSE",
+        "PM21",
+        "PRM",
+        "PS11",
+        "PSUS",
+        "USG"
+      ],
+      "originalText": "Creatures you control get +1/+1.",
+      "originalType": "Enchantment",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Duel",
+          "legality": "Legal"
+        },
+        {
+          "format": "Explorer",
+          "legality": "Legal"
+        },
+        {
+          "format": "Gladiator",
+          "legality": "Legal"
+        },
+        {
+          "format": "Historic",
+          "legality": "Legal"
+        },
+        {
+          "format": "Historicbrawl",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Modern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Penny",
+          "legality": "Legal"
+        },
+        {
+          "format": "Pioneer",
+          "legality": "Legal"
+        },
+        {
+          "format": "Premodern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "546eac7c-1424-597d-ac13-bf8558e88fe3"
+    },
+    {
+      "name": "Hail of Arrows",
+      "manaCost": "{X}{W}",
+      "cmc": 1.0,
+      "colors": ["White"],
+      "colorIdentity": ["W"],
+      "type": "Instant",
+      "types": ["Instant"],
+      "rarity": "Uncommon",
+      "set": "10E",
+      "setName": "Tenth Edition",
+      "text": "Hail of Arrows deals X damage divided as you choose among any number of target attacking creatures.",
+      "flavor": "\"Do not let a single shaft loose until my word. And when I give that word, do not leave a single shaft in Eiganjo.\"\n—General Takeno",
+      "artist": "Anthony S. Waters",
+      "number": "18",
+      "layout": "normal",
+      "multiverseid": "132107",
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=132107&type=card",
+      "rulings": [
+        {
+          "date": "2005-06-01",
+          "text": "You choose how the damage will be divided among the target creatures at the time you cast Hail of Arrows. Each target must be dealt at least 1 damage. If any of those creatures becomes an illegal target before Hail of Arrows resolves, the division of damage among the remaining creatures doesn’t change."
+        }
+      ],
+      "foreignNames": [
+        {
+          "name": "Pfeilhagel",
+          "text": "Pfeilhagel fügt X Schadenspunkte zu, deren Verteilung auf eine beliebige Anzahl an angreifenden Kreaturen deiner Wahl du bestimmst.",
+          "type": "Spontanzauber",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148534&type=card",
+          "language": "German",
+          "multiverseid": null
+        },
+        {
+          "name": "Lluvia de flechas",
+          "text": "La Lluvia de flechas hace X puntos de daño divididos como elijas entre cualquier número de criaturas atacantes objetivo.",
+          "type": "Instantáneo",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=150334&type=card",
+          "language": "Spanish",
+          "multiverseid": null
+        },
+        {
+          "name": "Pluie de flèches",
+          "text": "La Pluie de flèches inflige X blessures réparties comme vous le désirez entre n'importe quel nombre de créatures attaquantes ciblées.",
+          "type": "Éphémère",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149951&type=card",
+          "language": "French",
+          "multiverseid": null
+        },
+        {
+          "name": "Salva di Frecce",
+          "text": "La Salva di Frecce infligge X danni suddivisi a tua scelta tra un qualsiasi numero di creature attaccanti bersaglio.",
+          "type": "Istantaneo",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148917&type=card",
+          "language": "Italian",
+          "multiverseid": null
+        },
+        {
+          "name": "矢ぶすま",
+          "text": "望む数の攻撃しているクリーチャーを対象とする。矢ぶすまはそれらに、Ｘ点のダメージを好きなように割り振って与える。",
+          "type": "インスタント",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148151&type=card",
+          "language": "Japanese",
+          "multiverseid": null
+        },
+        {
+          "name": "Saraivada de Flechas",
+          "text": "Saraivada de Flechas causa X pontos de dano divididos como você escolher entre qualquer número de criaturas atacantes alvo.",
+          "type": "Mágica Instantânea",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149568&type=card",
+          "language": "Portuguese (Brazil)",
+          "multiverseid": null
+        },
+        {
+          "name": "Град Стрел",
+          "text": "Град Стрел наносит X повреждений, распределенных по вашему выбору между любым количеством целевых атакующих существ.",
+          "type": "Мгновенное заклинание",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149185&type=card",
+          "language": "Russian",
+          "multiverseid": null
+        },
+        {
+          "name": "箭如雨下",
+          "text": "箭如雨下造成X点伤害，你可任意分配于任何数量之目标进行攻击的生物上。",
+          "type": "瞬间",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=147768&type=card",
+          "language": "Chinese Simplified",
+          "multiverseid": null
+        }
+      ],
+      "printings": ["10E", "CN2", "SOK"],
+      "originalText": "Hail of Arrows deals X damage divided as you choose among any number of target attacking creatures.",
+      "originalType": "Instant",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Duel",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Modern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Penny",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "c19bcfc2-fc10-5040-8239-1c193098df47"
+    },
+    {
+      "name": "Heart of Light",
+      "manaCost": "{2}{W}",
+      "cmc": 3.0,
+      "colors": ["White"],
+      "colorIdentity": ["W"],
+      "type": "Enchantment — Aura",
+      "types": ["Enchantment"],
+      "subtypes": ["Aura"],
+      "rarity": "Common",
+      "set": "10E",
+      "setName": "Tenth Edition",
+      "text": "Enchant creature (Target a creature as you cast this. This card enters the battlefield attached to that creature.)\nPrevent all damage that would be dealt to and dealt by enchanted creature.",
+      "artist": "Luca Zontini",
+      "number": "19",
+      "layout": "normal",
+      "multiverseid": "132090",
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=132090&type=card",
+      "variations": ["08548840-8e62-5fed-b432-f2a5a0cb5f4e"],
+      "foreignNames": [
+        {
+          "name": "Herz aus Licht",
+          "text": "Kreaturenverzauberung (Bestimme eine Kreatur als Ziel, sowie du diese Karte spielst. Diese Karte kommt an die Kreatur angelegt ins Spiel.)\nVerhindere allen Schaden, der der verzauberten Kreatur zugefügt und von ihr zugefügt würde.",
+          "type": "Verzauberung — Aura",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148537&type=card",
+          "language": "German",
+          "multiverseid": null
+        },
+        {
+          "name": "Corazón de luz",
+          "text": "Encantar criatura. (Haz objetivo a una criatura al jugarlo. Esta carta entra en juego anexada a esa criatura.)\nPrevén todo el daño que se le fuera a hacer y que fuera a hacer la criatura encantada.",
+          "type": "Encantamiento — Aura",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=150335&type=card",
+          "language": "Spanish",
+          "multiverseid": null
+        },
+        {
+          "name": "Cœur de lumière",
+          "text": "Enchanter : créature (Ciblez une créature au moment où vous jouez cette carte. Cette carte arrive en jeu attachée à cette créature.)\nPrévenez toutes les blessures qui devraient être infligées à et par la créature enchantée.",
+          "type": "Enchantement : aura",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149952&type=card",
+          "language": "French",
+          "multiverseid": null
+        },
+        {
+          "name": "Cuore di Luce",
+          "text": "Incanta creatura (Bersaglia una creatura mentre giochi questa carta. Questa carta entra in gioco assegnata a quella creatura.)\nPrevieni tutto il danno che verrebbe inflitto alla e dalla creatura incantata.",
+          "type": "Incantesimo — Aura",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148920&type=card",
+          "language": "Italian",
+          "multiverseid": null
+        },
+        {
+          "name": "光の心",
+          "text": "エンチャント（クリーチャー） （これをプレイする際に、クリーチャー１体を対象とする。 このカードはそのクリーチャーにつけられている状態で場に出る。）\nエンチャントされているクリーチャーが与えるダメージと与えられるダメージをすべて軽減し、０にする。",
+          "type": "エンチャント — オーラ",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148154&type=card",
+          "language": "Japanese",
+          "multiverseid": null
+        },
+        {
+          "name": "Coração de Luz",
+          "text": "Encantar criatura (Ao jogar este card, escolha uma criatura alvo. Este card entra em jogo anexado àquela criatura.)\nPrevina todo o dano que seria causado a e causado pela criatura encantada.",
+          "type": "Encantamento — Aura",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149569&type=card",
+          "language": "Portuguese (Brazil)",
+          "multiverseid": null
+        },
+        {
+          "name": "Сердце Света",
+          "text": "Зачаровать существо (При разыгрывании этой карты выберите целью существо. Эта карта входит в игру прикрепленной к тому существу.)\nПредотвратите все повреждения, которые будут нанесены зачарованному существу и зачарованным существом.",
+          "type": "Чары — Аура",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149186&type=card",
+          "language": "Russian",
+          "multiverseid": null
+        },
+        {
+          "name": "净光之心",
+          "text": "生物结界（于使用时指定一个生物为目标。 此牌进场时结附在该生物上。）\n防止受此结界的生物将受到或造成的所有伤害。",
+          "type": "结界～灵气",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=147771&type=card",
+          "language": "Chinese Simplified",
+          "multiverseid": null
+        }
+      ],
+      "printings": ["10E", "BOK"],
+      "originalText": "Enchant creature (Target a creature as you play this. This card comes into play attached to that creature.)\nPrevent all damage that would be dealt to and dealt by enchanted creature.",
+      "originalType": "Enchantment - Aura",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Duel",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Modern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Pauper",
+          "legality": "Legal"
+        },
+        {
+          "format": "Paupercommander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Penny",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "36fcaa1e-64e3-56e3-950c-907db167e41f"
+    },
+    {
+      "name": "High Ground",
+      "manaCost": "{W}",
+      "cmc": 1.0,
+      "colors": ["White"],
+      "colorIdentity": ["W"],
+      "type": "Enchantment",
+      "types": ["Enchantment"],
+      "rarity": "Uncommon",
+      "set": "10E",
+      "setName": "Tenth Edition",
+      "text": "Each creature you control can block an additional creature each combat.",
+      "flavor": "In war, as in society, position is everything.",
+      "artist": "rk post",
+      "number": "20",
+      "layout": "normal",
+      "multiverseid": "132145",
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=132145&type=card",
+      "rulings": [
+        {
+          "date": "2007-07-15",
+          "text": "High Ground’s effect is cumulative. If you have a creature that can already block an additional creature, now it can block three creatures."
+        },
+        {
+          "date": "2007-07-15",
+          "text": "High Ground allows you to make some complicated blocks. For example, if you’re being attacked by three creatures (call them A, B, and C) and you control three creatures (X, Y, and Z), you can have X block A and B, Y block B and C, and Z block just C, among many other possible options. The defending player chooses how each blocking creature’s combat damage will be divided among the creatures it’s blocking."
+        }
+      ],
+      "foreignNames": [
+        {
+          "name": "Erhöhte Stellung",
+          "text": "Jede Kreatur, die du kontrollierst, kann eine zusätzliche Kreatur blocken.",
+          "type": "Verzauberung",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148539&type=card",
+          "language": "German",
+          "multiverseid": null
+        },
+        {
+          "name": "Terreno elevado",
+          "text": "Cada criatura que controlas puede bloquear una criatura adicional.",
+          "type": "Encantamiento",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=150336&type=card",
+          "language": "Spanish",
+          "multiverseid": null
+        },
+        {
+          "name": "Terrain élevé",
+          "text": "Chaque créature que vous contrôlez peut bloquer une créature supplémentaire.",
+          "type": "Enchantement",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149953&type=card",
+          "language": "French",
+          "multiverseid": null
+        },
+        {
+          "name": "Terreno Favorevole",
+          "text": "Ogni creatura che controlli può bloccare una creatura addizionale.",
+          "type": "Incantesimo",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148922&type=card",
+          "language": "Italian",
+          "multiverseid": null
+        },
+        {
+          "name": "高所",
+          "text": "あなたがコントロールする各クリーチャーは、本来に加えて追加で１体のクリーチャーをブロックできる。",
+          "type": "エンチャント",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148156&type=card",
+          "language": "Japanese",
+          "multiverseid": null
+        },
+        {
+          "name": "Terreno Elevado",
+          "text": "Cada criatura que você controla pode bloquear uma criatura adicional.",
+          "type": "Encantamento",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149570&type=card",
+          "language": "Portuguese (Brazil)",
+          "multiverseid": null
+        },
+        {
+          "name": "Занятая Высота",
+          "text": "Каждое существо под вашим контролем может блокировать дополнительное существо.",
+          "type": "Чары",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149187&type=card",
+          "language": "Russian",
+          "multiverseid": null
+        },
+        {
+          "name": "制高点",
+          "text": "由你操控的每个生物可以额外多阻挡一个生物。",
+          "type": "结界",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=147773&type=card",
+          "language": "Chinese Simplified",
+          "multiverseid": null
+        }
+      ],
+      "printings": ["10E", "EXO"],
+      "originalText": "Each creature you control can block an additional creature.",
+      "originalType": "Enchantment",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Duel",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Modern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Premodern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "60f49caf-3583-5f85-b4b3-08dca73a8628"
+    },
+    {
+      "name": "Holy Day",
+      "manaCost": "{W}",
+      "cmc": 1.0,
+      "colors": ["White"],
+      "colorIdentity": ["W"],
+      "type": "Instant",
+      "types": ["Instant"],
+      "rarity": "Common",
+      "set": "10E",
+      "setName": "Tenth Edition",
+      "text": "Prevent all combat damage that would be dealt this turn.",
+      "flavor": "\"Today there is feasting and peace across our land, but the war has not ended. Tuck away your bloodlust. You'll need it tomorrow.\"\n—Karrim, Samite healer",
+      "artist": "Volkan Baǵa",
+      "number": "21",
+      "layout": "normal",
+      "multiverseid": "129593",
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129593&type=card",
+      "foreignNames": [
+        {
+          "name": "Feiertag",
+          "text": "Verhindere allen Kampfschaden, der in diesem Zug zugefügt würde.",
+          "type": "Spontanzauber",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148542&type=card",
+          "language": "German",
+          "multiverseid": null
+        },
+        {
+          "name": "Día santo",
+          "text": "Prevén todo el daño de combate que se fuera a hacer este turno.",
+          "type": "Instantáneo",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=150337&type=card",
+          "language": "Spanish",
+          "multiverseid": null
+        },
+        {
+          "name": "Jour saint",
+          "text": "Prévenez toutes les blessures de combat qui devraient être infligées ce tour-ci.",
+          "type": "Éphémère",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149954&type=card",
+          "language": "French",
+          "multiverseid": null
+        },
+        {
+          "name": "Giorno Sacro",
+          "text": "Previeni tutto il danno da combattimento che verrebbe inflitto in questo turno.",
+          "type": "Istantaneo",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148925&type=card",
+          "language": "Italian",
+          "multiverseid": null
+        },
+        {
+          "name": "聖なる日",
+          "text": "このターンに与えられるすべての戦闘ダメージを軽減し、０にする。",
+          "type": "インスタント",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148159&type=card",
+          "language": "Japanese",
+          "multiverseid": null
+        },
+        {
+          "name": "Dia Sagrado",
+          "text": "Previna todo o dano de combate que seria causado neste turno.",
+          "type": "Mágica Instantânea",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149571&type=card",
+          "language": "Portuguese (Brazil)",
+          "multiverseid": null
+        },
+        {
+          "name": "Святой День",
+          "text": "Предотвратите все боевые повреждения, которые будут нанесены в этом ходу.",
+          "type": "Мгновенное заклинание",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149188&type=card",
+          "language": "Russian",
+          "multiverseid": null
+        },
+        {
+          "name": "圣日",
+          "text": "于本回合中，防止将造成的所有战斗伤害。",
+          "type": "瞬间",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=147776&type=card",
+          "language": "Chinese Simplified",
+          "multiverseid": null
+        }
+      ],
+      "printings": ["10E", "8ED", "9ED", "INV", "LEG", "PS11"],
+      "originalText": "Prevent all combat damage that would be dealt this turn.",
+      "originalType": "Instant",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Duel",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Modern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Pauper",
+          "legality": "Legal"
+        },
+        {
+          "format": "Paupercommander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Penny",
+          "legality": "Legal"
+        },
+        {
+          "format": "Premodern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "02e23fa1-b2f0-528c-b331-12a0c27bc5eb"
+    },
+    {
+      "name": "Holy Strength",
+      "manaCost": "{W}",
+      "cmc": 1.0,
+      "colors": ["White"],
+      "colorIdentity": ["W"],
+      "type": "Enchantment — Aura",
+      "types": ["Enchantment"],
+      "subtypes": ["Aura"],
+      "rarity": "Common",
+      "set": "10E",
+      "setName": "Tenth Edition",
+      "text": "Enchant creature\nEnchanted creature gets +1/+2.",
+      "artist": "Terese Nielsen",
+      "number": "22",
+      "layout": "normal",
+      "multiverseid": "129594",
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129594&type=card",
+      "variations": ["79996e77-112f-51e8-980c-0ec82f2d7754"],
+      "foreignNames": [
+        {
+          "name": "Heilige Stärke",
+          "text": "Kreaturenverzauberung (Bestimme eine Kreatur als Ziel, sowie du diese Karte spielst. Diese Karte kommt an die Kreatur angelegt ins Spiel.)Die verzauberte Kreatur erhält +1/+2.",
+          "type": "Verzauberung — Aura",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148543&type=card",
+          "language": "German",
+          "multiverseid": null
+        },
+        {
+          "name": "Fuerza sagrada",
+          "text": "Encantar criatura. (Haz objetivo a una criatura al jugarlo. Esta carta entra en juego anexada a esa criatura.)\nLa criatura encantada obtiene +1/+2.",
+          "type": "Encantamiento — Aura",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=150338&type=card",
+          "language": "Spanish",
+          "multiverseid": null
+        },
+        {
+          "name": "Force sacrée",
+          "text": "Enchanter : créature (Ciblez une créature au moment où vous jouez cette carte. Cette carte arrive en jeu attachée à cette créature.)\nLa créature enchantée gagne +1/+2.",
+          "type": "Enchantement : aura",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149955&type=card",
+          "language": "French",
+          "multiverseid": null
+        },
+        {
+          "name": "Forza Sacra",
+          "text": "Incanta creatura (Bersaglia una creatura mentre giochi questa carta. Questa carta entra in gioco assegnata a quella creatura.)\nLa creatura incantata prende +1/+2.",
+          "type": "Incantesimo — Aura",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148926&type=card",
+          "language": "Italian",
+          "multiverseid": null
+        },
+        {
+          "name": "聖なる力",
+          "text": "エンチャント（クリーチャー） （これをプレイする際に、クリーチャー１体を対象とする。 このカードはそのクリーチャーにつけられている状態で場に出る。）\nエンチャントされているクリーチャーは＋１/＋２の修整を受ける。",
+          "type": "エンチャント — オーラ",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148160&type=card",
+          "language": "Japanese",
+          "multiverseid": null
+        },
+        {
+          "name": "Força Divina",
+          "text": "Encantar criatura (Ao jogar este card, escolha uma criatura alvo. Este card entra em jogo anexado àquela criatura.)\nA criatura encantada recebe +1/+2.",
+          "type": "Encantamento — Aura",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149572&type=card",
+          "language": "Portuguese (Brazil)",
+          "multiverseid": null
+        },
+        {
+          "name": "Святая Сила",
+          "text": "Зачаровать существо (При разыгрывании этой карты выберите целью существо. Эта карта входит в игру прикрепленной к тому существу.)\nЗачарованное существо получает +1/+2.",
+          "type": "Чары — Аура",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149189&type=card",
+          "language": "Russian",
+          "multiverseid": null
+        },
+        {
+          "name": "神圣之力",
+          "text": "生物结界（于使用时指定一个生物为目标。 此牌进场时结附在该生物上。）\n受此结界的生物得+1/+2。",
+          "type": "结界～灵气",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=147777&type=card",
+          "language": "Chinese Simplified",
+          "multiverseid": null
+        }
+      ],
+      "printings": [
+        "10E",
+        "2ED",
+        "3ED",
+        "4BB",
+        "4ED",
+        "5ED",
+        "7ED",
+        "8ED",
+        "9ED",
+        "CED",
+        "CEI",
+        "FBB",
+        "LEA",
+        "LEB",
+        "M10",
+        "M11",
+        "PS11",
+        "SUM"
+      ],
+      "originalText": "Enchant creature (Target a creature as you play this. This card comes into play attached to that creature.)\nEnchanted creature gets +1/+2.",
+      "originalType": "Enchantment - Aura",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Duel",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Modern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Pauper",
+          "legality": "Legal"
+        },
+        {
+          "format": "Paupercommander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Penny",
+          "legality": "Legal"
+        },
+        {
+          "format": "Premodern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "4e4cbdec-e2d4-5f31-98a3-f2ef052c849d"
+    },
+    {
+      "name": "Honor Guard",
+      "manaCost": "{W}",
+      "cmc": 1.0,
+      "colors": ["White"],
+      "colorIdentity": ["W"],
+      "type": "Creature — Human Soldier",
+      "types": ["Creature"],
+      "subtypes": ["Human", "Soldier"],
+      "rarity": "Common",
+      "set": "10E",
+      "setName": "Tenth Edition",
+      "text": "{W}: Honor Guard gets +0/+1 until end of turn.",
+      "flavor": "The strength of one. The courage of ten.",
+      "artist": "Dan Dos Santos",
+      "number": "23",
+      "power": "1",
+      "toughness": "1",
+      "layout": "normal",
+      "multiverseid": "129595",
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129595&type=card",
+      "foreignNames": [
+        {
+          "name": "Ehrengarde",
+          "text": "{W}: Die Ehrengarde erhält +0/+1 bis zum Ende des Zuges.",
+          "type": "Kreatur — Mensch, Soldat",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148544&type=card",
+          "language": "German",
+          "multiverseid": null
+        },
+        {
+          "name": "Guardia de honor",
+          "text": "{W}: El Guardia de honor obtiene +0/+1 hasta el final del turno.",
+          "type": "Criatura — Soldado humano",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=150339&type=card",
+          "language": "Spanish",
+          "multiverseid": null
+        },
+        {
+          "name": "Garde d'honneur",
+          "text": "{W} : La Garde d'honneur gagne +0/+1 jusqu'à la fin du tour.",
+          "type": "Créature : humain et soldat",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149956&type=card",
+          "language": "French",
+          "multiverseid": null
+        },
+        {
+          "name": "Guardia d'Onore",
+          "text": "{W}: La Guardia d'Onore prende +0/+1 fino alla fine del turno.",
+          "type": "Creatura — Soldato Umano",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148927&type=card",
+          "language": "Italian",
+          "multiverseid": null
+        },
+        {
+          "name": "儀仗兵",
+          "text": "{W}：儀仗兵はターン終了時まで＋０/＋１の修整を受ける。",
+          "type": "クリーチャー — 人間・兵士",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148161&type=card",
+          "language": "Japanese",
+          "multiverseid": null
+        },
+        {
+          "name": "Guarda de Honra",
+          "text": "{W}: Guarda de Honra recebe +0/+1 até o final do turno.",
+          "type": "Criatura — Humano Soldado",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149573&type=card",
+          "language": "Portuguese (Brazil)",
+          "multiverseid": null
+        },
+        {
+          "name": "Почетный Караул",
+          "text": "{W}: Почетный Караул получает +0/+1 до конца хода.",
+          "type": "Существо — Человек Солдат",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149190&type=card",
+          "language": "Russian",
+          "multiverseid": null
+        },
+        {
+          "name": "仪队兵",
+          "text": "{W}：仪队兵得+0/+1直到回合结束。",
+          "type": "生物～人类／士兵",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=147778&type=card",
+          "language": "Chinese Simplified",
+          "multiverseid": null
+        }
+      ],
+      "printings": ["10E", "7ED", "8ED", "9ED", "STH"],
+      "originalText": "{W}: Honor Guard gets +0/+1 until end of turn.",
+      "originalType": "Creature - Human Soldier",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Duel",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Modern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Pauper",
+          "legality": "Legal"
+        },
+        {
+          "format": "Paupercommander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Penny",
+          "legality": "Legal"
+        },
+        {
+          "format": "Premodern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "9bee1901-1125-5635-9e22-3b4f37989c37"
+    },
+    {
+      "name": "Icatian Priest",
+      "manaCost": "{W}",
+      "cmc": 1.0,
+      "colors": ["White"],
+      "colorIdentity": ["W"],
+      "type": "Creature — Human Cleric",
+      "types": ["Creature"],
+      "subtypes": ["Human", "Cleric"],
+      "rarity": "Uncommon",
+      "set": "10E",
+      "setName": "Tenth Edition",
+      "text": "{1}{W}{W}: Target creature gets +1/+1 until end of turn.",
+      "flavor": "Grelden knelt and felt the cool, dry hand of the priest on his brow. Hours later, when his wits returned, he was covered in his enemies' blood on the field of victory.",
+      "artist": "Stephen Tappin",
+      "number": "24",
+      "power": "1",
+      "toughness": "1",
+      "layout": "normal",
+      "multiverseid": "132123",
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=132123&type=card",
+      "foreignNames": [
+        {
+          "name": "Icatianischer Priester",
+          "text": "{1}{W}{W}: Eine Kreatur deiner Wahl erhält +1/+1 bis zum Ende des Zuges.",
+          "type": "Kreatur — Mensch, Kleriker",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148551&type=card",
+          "language": "German",
+          "multiverseid": null
+        },
+        {
+          "name": "Sacerdote icatiano",
+          "text": "{1}{W}{W}: La criatura objetivo obtiene +1/+1 hasta el final del turno.",
+          "type": "Criatura — Clérigo humano",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=150340&type=card",
+          "language": "Spanish",
+          "multiverseid": null
+        },
+        {
+          "name": "Prêtre d'Icatia",
+          "text": "{1}{W}{W} : La créature ciblée gagne +1/+1 jusqu'à la fin du tour.",
+          "type": "Créature : humain et clerc",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149957&type=card",
+          "language": "French",
+          "multiverseid": null
+        },
+        {
+          "name": "Sacerdote di Icatia",
+          "text": "{1}{W}{W}: Una creatura bersaglio prende +1/+1 fino alla fine del turno.",
+          "type": "Creatura — Chierico Umano",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148934&type=card",
+          "language": "Italian",
+          "multiverseid": null
+        },
+        {
+          "name": "アイケイシアの僧侶",
+          "text": "{1}{W}{W}：クリーチャー１体を対象とする。それはターン終了時まで＋１/＋１の修整を受ける。",
+          "type": "クリーチャー — 人間・クレリック",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148168&type=card",
+          "language": "Japanese",
+          "multiverseid": null
+        },
+        {
+          "name": "Sacerdote Icatiano",
+          "text": "{1}{W}{W}: A criatura alvo recebe +1/+1 até o final do turno.",
+          "type": "Criatura — Humano Clérigo",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149574&type=card",
+          "language": "Portuguese (Brazil)",
+          "multiverseid": null
+        },
+        {
+          "name": "Айкейшунский Священник",
+          "text": "{1}{W}{W}: Целевое существо получает +1/+1 до конца хода.",
+          "type": "Существо — Человек Священник",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149191&type=card",
+          "language": "Russian",
+          "multiverseid": null
+        },
+        {
+          "name": "艾凯逊祝祷士",
+          "text": "{1}{W}{W}：目标生物得+1/+1直到回合结束。",
+          "type": "生物～人类／僧侣",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=147785&type=card",
+          "language": "Chinese Simplified",
+          "multiverseid": null
+        }
+      ],
+      "printings": ["10E", "DDC", "DVD", "FEM"],
+      "originalText": "{1}{W}{W}: Target creature gets +1/+1 until end of turn.",
+      "originalType": "Creature - Human Cleric",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Duel",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Modern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Paupercommander",
+          "legality": "Restricted"
+        },
+        {
+          "format": "Penny",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "cb865391-5b14-58ce-aa99-b36b83e6377f"
+    },
+    {
+      "name": "Kjeldoran Royal Guard",
+      "manaCost": "{3}{W}{W}",
+      "cmc": 5.0,
+      "colors": ["White"],
+      "colorIdentity": ["W"],
+      "type": "Creature — Human Soldier",
+      "types": ["Creature"],
+      "subtypes": ["Human", "Soldier"],
+      "rarity": "Rare",
+      "set": "10E",
+      "setName": "Tenth Edition",
+      "text": "{T}: All combat damage that would be dealt to you by unblocked creatures this turn is dealt to Kjeldoran Royal Guard instead.",
+      "flavor": "Upon the frozen tundra stand the Kjeldoran Royal Guard, pikes raised, with the king's oath upon their lips.",
+      "artist": "Carl Critchlow",
+      "number": "25",
+      "power": "2",
+      "toughness": "5",
+      "layout": "normal",
+      "multiverseid": "130551",
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=130551&type=card",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "If you activate the ability but Kjeldoran Royal Guard leaves the battlefield before combat damage is dealt, the combat damage from unblocked creatures won’t be redirected. It will be dealt to you as normal."
+        }
+      ],
+      "foreignNames": [
+        {
+          "name": "Kjeldoranische Hofgarde",
+          "text": "{T}: Aller Kampfschaden, der dir in diesem Zug von ungeblockten Kreaturen zugefügt würde, wird stattdessen der Kjeldoranischen Hofgarde zugefügt.",
+          "type": "Kreatur — Mensch, Soldat",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148565&type=card",
+          "language": "German",
+          "multiverseid": null
+        },
+        {
+          "name": "Guardia Real kjeldorana",
+          "text": "{T}: Todo el daño de combate que te fueran a hacer criaturas no bloqueadas este turno, en vez de eso, se le hace a la Guardia Real kjeldorana.",
+          "type": "Criatura — Soldado humano",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=150341&type=card",
+          "language": "Spanish",
+          "multiverseid": null
+        },
+        {
+          "name": "Garde royale du Kjeldor",
+          "text": "{T} : Toutes les blessures de combat qui devraient vous être infligées ce tour-ci par des créatures non-bloquées sont, à la place, infligées à la Garde royale du Kjeldor.",
+          "type": "Créature : humain et soldat",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149958&type=card",
+          "language": "French",
+          "multiverseid": null
+        },
+        {
+          "name": "Guardia Reale di Kjeldor",
+          "text": "{T}: Tutto il danno da combattimento che ti verrebbe inflitto da creature non bloccate in questo turno viene invece inflitto alla Guardia Reale di Kjeldor.",
+          "type": "Creatura — Soldato Umano",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148948&type=card",
+          "language": "Italian",
+          "multiverseid": null
+        },
+        {
+          "name": "キイェルドーの近衛隊",
+          "text": "{T}：このターン、ブロックされていないクリーチャーがあなたに与えるすべての戦闘ダメージは、代わりにキイェルドーの近衛隊に与えられる。",
+          "type": "クリーチャー — 人間・兵士",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148182&type=card",
+          "language": "Japanese",
+          "multiverseid": null
+        },
+        {
+          "name": "Guarda Real Kjeldorana",
+          "text": "{T}: Todo o dano de combate que seria causado a você por criaturas não bloqueadas neste turno, em vez disso, será causado à Guarda Real Kjeldorana.",
+          "type": "Criatura — Humano Soldado",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149575&type=card",
+          "language": "Portuguese (Brazil)",
+          "multiverseid": null
+        },
+        {
+          "name": "Королевская Стража Кьельдора",
+          "text": "{T}: Все боевые повреждения, которые будут нанесены вам в этом ходу незаблокированными существами, наносятся Королевской Страже Кьельдора вместо этого.",
+          "type": "Существо — Человек Солдат",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149192&type=card",
+          "language": "Russian",
+          "multiverseid": null
+        },
+        {
+          "name": "奇亚多朗皇家护卫",
+          "text": "{T}：本回合中，未受阻挡的生物将对你造成的所有战斗伤害都改为对奇亚多朗皇家护卫造成之。",
+          "type": "生物～人类／士兵",
+          "flavor": null,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=147799&type=card",
+          "language": "Chinese Simplified",
+          "multiverseid": null
+        }
+      ],
+      "printings": ["10E", "5ED", "6ED", "7ED", "ICE"],
+      "originalText": "{T}: All combat damage that would be dealt to you by unblocked creatures this turn is dealt to Kjeldoran Royal Guard instead.",
+      "originalType": "Creature - Human Soldier",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Duel",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Modern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Penny",
+          "legality": "Legal"
+        },
+        {
+          "format": "Premodern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "bb6e511d-3e7f-5dd3-b40c-dbeb09c734f7"
+    }
+  ]
+}

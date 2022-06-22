@@ -45,7 +45,7 @@ interface FlexBoxProps {
   readonly paddingTop?: number;
   readonly type: "row" | "column";
   readonly vCenter?: boolean;
-  readonly wrap?: boolean;
+  readonly wrapItems?: boolean;
 }
 
 const FlexContainer = styled.div<FlexBoxProps>`
@@ -53,7 +53,7 @@ const FlexContainer = styled.div<FlexBoxProps>`
   box-sizing: border-box;
   ${(props) => props.flex && `flex: ${props.flex};`}
   flex-direction: ${(props) => (props.type === "row" ? "column" : "row")};
-  ${(props) => props.wrap && "flex-wrap: wrap;"}
+  ${(props) => props.wrapItems && "flex-wrap: wrap;"}
   ${(props) =>
     props.hCenter &&
     (props.type === "row"

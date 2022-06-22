@@ -34,7 +34,7 @@ const CardShowCase = () => {
     isLoaded && setIsLoaded(false);
 
     fetch(
-      `https://api.magicthegathering.io/v1/cards?contains=imageUrl&pageSize=${CONSTANTS.CARDS.PAGE_SIZE}&page=${currentPage}&${filterQuery}`
+      `${CONSTANTS.API_BASE_URL}/cards?contains=imageUrl&pageSize=${CONSTANTS.CARDS.PAGE_SIZE}&page=${currentPage}&${filterQuery}`
     )
       .then((res) => {
         const total: string | null = res.headers.get("total-count");
@@ -60,8 +60,9 @@ const CardShowCase = () => {
   return (
     <React.Fragment>
       <FlexContainer type="row" hCenter marginBottom={25}>
-        <FlexContainer type="column" wrap>
+        <FlexContainer type="column" wrapItems>
           <Filters
+            data-testid="filters"
             setFilterQuery={setFilterQuery}
             setCurrentPage={setCurrentPage}
           />
@@ -86,8 +87,13 @@ const CardShowCase = () => {
         </FlexContainer>
       </FlexContainer>
       <FlexContainer type="row" hCenter>
-        <FlexContainer type="column" hCenter wrap>
-          <CardList isLoaded={isLoaded} error={error} cardReponse={cards} />
+        <FlexContainer type="column" hCenter wrapItems>
+          <CardList
+            data-testid="card-list"
+            isLoaded={isLoaded}
+            error={error}
+            cardReponse={cards}
+          />
         </FlexContainer>
       </FlexContainer>
     </React.Fragment>

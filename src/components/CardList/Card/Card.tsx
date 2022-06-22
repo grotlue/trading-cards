@@ -58,6 +58,7 @@ const Card = ({ name, id, imageUrl }: CardProps) => {
     <CardWrapper onClick={() => handleCardClick()}>
       {showDetails && !isLoaded && (
         <FlexContainer
+          data-testid="card-loading"
           flex={1}
           hCenter
           paddingBottom={20}
@@ -67,11 +68,12 @@ const Card = ({ name, id, imageUrl }: CardProps) => {
           type="row"
           vCenter
         >
-          Loading...
+          Loading card details...
         </FlexContainer>
       )}
       {showDetails && error && (
         <FlexContainer
+          data-testid="card-error"
           flex={1}
           hCenter
           paddingBottom={20}
@@ -85,7 +87,13 @@ const Card = ({ name, id, imageUrl }: CardProps) => {
         </FlexContainer>
       )}
       {showDetails && card && (
-        <FlexContainer flex={1} type="row" paddingTop={20} paddingBottom={20}>
+        <FlexContainer
+          flex={1}
+          type="row"
+          paddingTop={20}
+          paddingBottom={20}
+          data-testid="card-back"
+        >
           {Object.keys(CardDetails).map(
             (detail) =>
               card[detail as CardDetailsKeys] && (
@@ -102,6 +110,7 @@ const Card = ({ name, id, imageUrl }: CardProps) => {
 
       {!showDetails && (
         <FlexContainer
+          data-testid="card-front"
           flex={1}
           hCenter
           paddingBottom={20}
