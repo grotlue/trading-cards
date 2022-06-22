@@ -31,7 +31,7 @@ const CardShowCase = () => {
     isLoaded && setIsLoaded(false);
 
     fetch(
-      `https://api.magicthegathering.io/v1/cards?pageSize=${CONSTANTS.CARDS.PAGE_SIZE}&page=${currentPage}contains=imageUrl&${filterQuery}`
+      `https://api.magicthegathering.io/v1/cards?contains=imageUrl&pageSize=${CONSTANTS.CARDS.PAGE_SIZE}&page=${currentPage}&${filterQuery}`
     )
       .then((res) => {
         const total: string | null = res.headers.get("total-count");
