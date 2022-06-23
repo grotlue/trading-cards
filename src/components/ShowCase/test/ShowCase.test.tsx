@@ -6,7 +6,7 @@ import { setupServer } from "msw/node";
 
 import CONSTANTS from "../../../constants";
 
-import CardShowCase from "../CardShowCase";
+import ShowCase from "../ShowCase";
 import { cardsSuccessRespone } from "./cardsResponseMocks";
 
 const cardsApiUrl = `${CONSTANTS.API_BASE_URL}/cards`;
@@ -22,7 +22,7 @@ afterEach(() => server.resetHandlers());
 afterAll(() => server.close());
 
 test("renders a card list with 25 items", async () => {
-  render(<CardShowCase />);
+  render(<ShowCase />);
 
   const cards = await screen.findAllByTestId("card-front");
   expect(cards).toHaveLength(25);
@@ -30,7 +30,7 @@ test("renders a card list with 25 items", async () => {
 
 test("renders a loading state", async () => {
   // TODO: move this into CardListTest
-  render(<CardShowCase />);
+  render(<ShowCase />);
 
   await waitFor(() => screen.findByText(/Loading cards.../i));
 });

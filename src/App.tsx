@@ -8,7 +8,7 @@ import {
   Header,
   Layout,
 } from "./components/Layout";
-import CardShowCase from "./components/CardShowCase";
+import ShowCase from "./components/ShowCase";
 
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
             <Header>{CONSTANTS.APP_TITLE}</Header>
           </FlexContainer>
         </FlexContainer>
-        <CardShowCase />
+        <ShowCase />
       </Layout>
     </React.Fragment>
   );

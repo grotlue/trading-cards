@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import { FlexContainer } from "../../Layout";
+import { FlexContainer } from "../Layout";
 import CardDetail from "./CardDetail";
 import { CardImage, CardName, CardWrapper } from "./style";
 
@@ -97,7 +97,10 @@ const Card = ({ name, id, imageUrl }: CardProps) => {
           {Object.keys(CardDetails).map(
             (detail) =>
               card[detail as CardDetailsKeys] && (
-                <FlexContainer type="column">
+                <FlexContainer
+                  type="column"
+                  key={card[detail as CardDetailsKeys]}
+                >
                   <CardDetail
                     label={CardDetails[detail as CardDetailsKeys]}
                     value={card[detail as CardDetailsKeys]}

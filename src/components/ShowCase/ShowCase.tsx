@@ -17,7 +17,7 @@ interface CardItem {
 type CardResultError = { message: string } | null;
 type CardResponse = Array<CardItem> | [];
 
-const CardShowCase = () => {
+const ShowCase = () => {
   const [error, setError] = useState<CardResultError>(null);
   useState<Array<CardItem> | []>([]);
   const [isLoaded, setIsLoaded] = useState<boolean>(false);
@@ -101,4 +101,4 @@ const CardShowCase = () => {
 };
 
 export type { CardResponse, CardResultError };
-export default CardShowCase;
+export default ShowCase;

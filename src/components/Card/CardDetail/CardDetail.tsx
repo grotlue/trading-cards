@@ -1,6 +1,6 @@
 import React from "react";
 
-import { FlexContainer } from "../../../Layout";
+import { FlexContainer } from "../../Layout";
 import { CardDetailLabel } from "./style";
 
 interface CardDetailProps {

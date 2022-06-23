@@ -1,8 +1,8 @@
 import React from "react";
 
-import Card from "./Card";
+import Card from "../Card";
 
-import type { CardResponse, CardResultError } from "../CardShowCase";
+import type { CardResponse, CardResultError } from "../ShowCase";
 
 interface CardProps {
   cardReponse: CardResponse;
