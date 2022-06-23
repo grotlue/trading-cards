@@ -1,5 +1,5 @@
 import React from "react";
-import { render, screen, waitFor } from "@testing-library/react";
+import { render, screen } from "@testing-library/react";
 import "@testing-library/jest-dom";
 import { rest } from "msw";
 import { setupServer } from "msw/node";
@@ -12,7 +12,7 @@ import { cardsSuccessRespone } from "./cardsResponseMocks";
 const cardsApiUrl = `${CONSTANTS.API_BASE_URL}/cards`;
 
 const server = setupServer(
-  rest.get(cardsApiUrl, (req, res, ctx) => {
+  rest.get(cardsApiUrl, (_req, res, ctx) => {
     return res(ctx.json(cardsSuccessRespone));
   })
 );
@@ -26,11 +26,4 @@ test("renders a card list with 25 items", async () => {
 
   const cards = await screen.findAllByTestId("card-front");
   expect(cards).toHaveLength(25);
-});
-
-test("renders a loading state", async () => {
-  // TODO: move this into CardListTest
-  render(<ShowCase />);
-
-  await waitFor(() => screen.findByText(/Loading cards.../i));
 });
