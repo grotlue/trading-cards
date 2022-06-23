@@ -1,24 +1,6 @@
-import type { CardColorsType, FilterModeType } from "./types";
+import type { Constants } from "./types";
 
-type ConstantsType = {
-  APP_TITLE: string;
-  API_BASE_URL: string;
-  CARDS: CardConstantsType;
-};
-
-type CardConstantsType = {
-  COLORS: Array<CardColorsType>;
-  DEFAULT_COLOR_FILTER_MODE: FilterModeType;
-  COLOR_FILTER_MODES: Array<FilterModeConstantType>;
-  PAGE_SIZE: number;
-};
-
-type FilterModeConstantType = {
-  name: string;
-  queryValue: FilterModeType;
-};
-
-const CONSTANTS: ConstantsType = {
+const CONSTANTS: Constants = {
   APP_TITLE: "Trading Cards",
   API_BASE_URL: "https://api.magicthegathering.io/v1",
   CARDS: {

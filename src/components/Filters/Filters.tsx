@@ -9,10 +9,15 @@ import React, {
 import CONSTANTS from "../../constants";
 
 import { FlexContainer } from "../Layout";
+import {
+  ColorFilterButton,
+  ColorFilterModeButton,
+  NameFilterInput,
+  FilterLabel,
+} from "./style";
+import { buildFilterQuery, updateColorFilter } from "./utils";
 
-import { ColorFilter, ColorFilterMode, NameFilter, FilterLabel } from "./style";
-
-import type { FilterModeType } from "../../types";
+import type { NameFilter, ColorFilter, ColorFilterMode } from "./types";
 
 interface FiltersProps {
   setCurrentPage: Dispatch<SetStateAction<number>>;
@@ -22,36 +27,21 @@ interface FiltersProps {
 const Filters = ({ setCurrentPage, setFilterQuery }: FiltersProps) => {
   const initialRender = useRef(true);
 
-  const [colorFilter, setColorFilter] = useState<Array<string> | []>([]);
-  const [colorFilterMode, setColorFilterMode] = useState<FilterModeType>(
+  const [colorFilter, setColorFilter] = useState<ColorFilter>([]);
+  const [colorFilterMode, setColorFilterMode] = useState<ColorFilterMode>(
     CONSTANTS.CARDS.DEFAULT_COLOR_FILTER_MODE
   );
   const [nameFilterInput, setNameFilterInput] = useState<string>("");
-  const [nameFilter, setNameFilter] = useState<string>("");
-
-  const buildFilterQuery = () => {
-    setFilterQuery(
-      `name=${nameFilter}&colors=${colorFilter.join(colorFilterMode)}`
-    );
-  };
-
-  const updateColorFilter = (filterActive: boolean, color: string) => {
-    let newColorFilter: Array<string> | [];
-    if (filterActive) {
-      newColorFilter = colorFilter.filter((item) => item !== color);
-    } else {
-      newColorFilter = [...colorFilter, color];
-    }
-
-    setColorFilter(newColorFilter);
-  };
+  const [nameFilter, setNameFilter] = useState<NameFilter>("");
 
   useEffect(() => {
     if (initialRender.current) {
       initialRender.current = false;
     } else {
       setCurrentPage(1);
-      buildFilterQuery();
+      setFilterQuery(
+        buildFilterQuery(colorFilter, colorFilterMode, nameFilter)
+      );
     }
   }, [colorFilter, colorFilterMode, nameFilter]);
 
@@ -77,7 +67,7 @@ const Filters = ({ setCurrentPage, setFilterQuery }: FiltersProps) => {
         marginRight={10}
       >
         <FilterLabel>Filter by name(s):</FilterLabel>
-        <NameFilter
+        <NameFilterInput
           onChange={(event) => setNameFilterInput(event.target.value)}
           placeholder="e.g. nissa,jace|ajani,caller"
           size={30}
@@ -94,13 +84,17 @@ const Filters = ({ setCurrentPage, setFilterQuery }: FiltersProps) => {
         {CONSTANTS.CARDS.COLORS.map((color) => {
           const filterActive = !!colorFilter.find((ele) => ele === color);
           return (
-            <ColorFilter
+            <ColorFilterButton
               isActive={filterActive}
               key={color}
-              onClick={() => updateColorFilter(filterActive, color)}
+              onClick={() =>
+                setColorFilter(
+                  updateColorFilter(colorFilter, color, filterActive)
+                )
+              }
             >
               {color}
-            </ColorFilter>
+            </ColorFilterButton>
           );
         })}
       </FlexContainer>
@@ -119,7 +113,7 @@ const Filters = ({ setCurrentPage, setFilterQuery }: FiltersProps) => {
           const position = index === 0 ? "left" : "right";
 
           return (
-            <ColorFilterMode
+            <ColorFilterModeButton
               isActive={filterActive}
               position={position}
               disabled={!enableColorFilterMode}
@@ -127,7 +121,7 @@ const Filters = ({ setCurrentPage, setFilterQuery }: FiltersProps) => {
               onClick={() => setColorFilterMode(mode.queryValue)}
             >
               {mode.name}
-            </ColorFilterMode>
+            </ColorFilterModeButton>
           );
         })}
       </FlexContainer>

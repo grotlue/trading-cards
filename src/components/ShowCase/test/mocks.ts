@@ -1,8 +1,4 @@
-import successRespone from "./successResponse.json";
-
 import type { ResponseResult } from "../types";
-
-const cardsSuccessRespone: { cards: ResponseResult } = successRespone;
 
 const buildResponseResult = (
   count = 25,
@@ -27,4 +23,4 @@ const buildResponseResult = (
   return { cards: cardList };
 };
 
-export { buildResponseResult, cardsSuccessRespone };
+export { buildResponseResult };

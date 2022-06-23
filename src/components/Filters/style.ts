@@ -5,11 +5,11 @@ const FilterLabel = styled.p`
   margin-right: 10px;
 `;
 
-interface ColorFilterProps {
+interface ColorFilterButtonProps {
   readonly isActive: boolean;
 }
 
-const ColorFilter = styled.button<ColorFilterProps>`
+const ColorFilterButton = styled.button<ColorFilterButtonProps>`
   background-color: ${(props) => (props.isActive ? "#484035" : "#fff")};
   border-radius 15px;
   color: ${(props) => (props.isActive ? "#fff" : "#484035")};
@@ -17,12 +17,12 @@ const ColorFilter = styled.button<ColorFilterProps>`
   margin-right: 10px;
 `;
 
-interface ColorFilterModeProps {
+interface ColorFilterModeButtonProps {
   readonly isActive: boolean;
   readonly position: "left" | "right";
 }
 
-const ColorFilterMode = styled.button<ColorFilterModeProps>`
+const ColorFilterModeButton = styled.button<ColorFilterModeButtonProps>`
   background-color: ${(props) => (props.isActive ? "#484035" : "#fff")};
   color: ${(props) => (props.isActive ? "#fff" : "#484035")};
   ${(props) => props.position === "left" && "border-radius: 15px 0 0 15px;"}
@@ -34,9 +34,14 @@ const ColorFilterMode = styled.button<ColorFilterModeProps>`
   }
 `;
 
-const NameFilter = styled.input`
+const NameFilterInput = styled.input`
   border-radius: 20px;
   padding: 10px;
 `;
 
-export { ColorFilter, ColorFilterMode, FilterLabel, NameFilter };
+export {
+  ColorFilterButton,
+  ColorFilterModeButton,
+  FilterLabel,
+  NameFilterInput,
+};
