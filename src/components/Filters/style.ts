@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const FilterLabel = styled.p`
+const FilterLabel = styled.label`
   font-weight: bold;
   margin-right: 10px;
 `;

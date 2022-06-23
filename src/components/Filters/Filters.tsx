@@ -66,10 +66,15 @@ const Filters = ({ setCurrentPage, setFilterQuery }: FiltersProps) => {
         marginLeft={10}
         marginRight={10}
       >
-        <FilterLabel>Filter by name(s):</FilterLabel>
+        <FilterLabel htmlFor="name-filter">Filter by name(s):</FilterLabel>
         <NameFilterInput
+          id="name-filter"
+          data-testid="name-filter"
+          aria-label="name-filter"
+          type="text"
           onChange={(event) => setNameFilterInput(event.target.value)}
           placeholder="e.g. nissa,jace|ajani,caller"
+          value={nameFilterInput}
           size={30}
         />
       </FlexContainer>
@@ -85,6 +90,7 @@ const Filters = ({ setCurrentPage, setFilterQuery }: FiltersProps) => {
           const filterActive = !!colorFilter.find((ele) => ele === color);
           return (
             <ColorFilterButton
+              data-testid={`color-filter-${color}`}
               isActive={filterActive}
               key={color}
               onClick={() =>
@@ -114,10 +120,11 @@ const Filters = ({ setCurrentPage, setFilterQuery }: FiltersProps) => {
 
           return (
             <ColorFilterModeButton
+              data-testid={`color-filter-mode-${mode.name}`}
               isActive={filterActive}
               position={position}
               disabled={!enableColorFilterMode}
-              key={mode.queryValue}
+              key={mode.name}
               onClick={() => setColorFilterMode(mode.queryValue)}
             >
               {mode.name}
