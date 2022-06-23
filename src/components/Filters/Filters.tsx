@@ -49,7 +49,7 @@ const Filters = ({ setCurrentPage, setFilterQuery }: FiltersProps) => {
     if (initialRender.current) {
       initialRender.current = false;
     } else {
-      const timeOutId = setTimeout(() => setNameFilter(nameFilterInput), 500);
+      const timeOutId = setTimeout(() => setNameFilter(nameFilterInput), 1000);
       return () => clearTimeout(timeOutId);
     }
   }, [nameFilterInput]);
