@@ -2,11 +2,11 @@ import React from "react";
 
 import Card from "../Card";
 
-import type { CardResponse, CardResultError } from "../ShowCase";
+import type { ResponseError, ResponseResult } from "../ShowCase";
 
 interface CardProps {
-  cardReponse: CardResponse;
-  error: CardResultError;
+  cardReponse: ResponseResult;
+  error: ResponseError;
   isLoaded: boolean;
 }
 

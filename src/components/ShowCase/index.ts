@@ -1,3 +1,3 @@
-export type { CardResponse, CardResultError } from "./ShowCase";
+export type { ResponseError, ResponseResult } from "./types";
 
 export { default } from "./ShowCase";

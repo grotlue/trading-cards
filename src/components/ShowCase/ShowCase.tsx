@@ -8,20 +8,12 @@ import Button from "../Button";
 import CardList from "../CardList";
 import Filters from "../Filters";
 
-interface CardItem {
-  id: string;
-  name: string;
-  imageUrl: string;
-}
-
-type CardResultError = { message: string } | null;
-type CardResponse = Array<CardItem> | [];
+import type { ResponseError, ResponseResult } from "./types";
 
 const ShowCase = () => {
-  const [error, setError] = useState<CardResultError>(null);
-  useState<Array<CardItem> | []>([]);
+  const [error, setError] = useState<ResponseError>(null);
   const [isLoaded, setIsLoaded] = useState<boolean>(false);
-  const [cards, setCards] = useState<CardResponse>([]);
+  const [cards, setCards] = useState<ResponseResult>([]);
   const [filterQuery, setFilterQuery] = useState<string>("");
   const [currentPage, setCurrentPage] = useState<number>(1);
   const [totalCount, setTotalCount] = useState<number>(0);
@@ -100,5 +92,4 @@ const ShowCase = () => {
   );
 };
 
-export type { CardResponse, CardResultError };
 export default ShowCase;

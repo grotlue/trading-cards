@@ -4,34 +4,20 @@ import { FlexContainer } from "../Layout";
 import CardDetail from "./CardDetail";
 import { CardImage, CardName, CardWrapper } from "./style";
 
+import { CardDetailsNames } from "./types";
+import type { CardDetailsKeys, CardDetails } from "./types";
+
 interface CardProps {
   name: string;
   id: string;
   imageUrl: string;
 }
 
-enum CardDetails {
-  manaCost = "Mana Cost",
-  power = "Power",
-  rarity = "Rarity",
-}
-
-type CardDetailsKeys = keyof typeof CardDetails;
-type CardDetailsKeyFields = {
-  [key in CardDetailsKeys]: string | number | boolean;
-};
-
-interface CardType extends CardDetailsKeyFields, CardProps {
-  manaCost: string;
-  power: string;
-  rarity: string;
-}
-
 const Card = ({ name, id, imageUrl }: CardProps) => {
   const [isLoaded, setIsLoaded] = useState<boolean>(false);
   const [error, setError] = useState<{ message: string } | null>(null);
   const [showDetails, setShowDetails] = useState<boolean>(false);
-  const [card, setCard] = useState<CardType | null>(null);
+  const [card, setCard] = useState<(CardProps & CardDetails) | null>(null);
 
   const handleCardClick = () => {
     setShowDetails(!showDetails);
@@ -94,7 +80,7 @@ const Card = ({ name, id, imageUrl }: CardProps) => {
           paddingBottom={20}
           data-testid="card-back"
         >
-          {Object.keys(CardDetails).map(
+          {Object.keys(CardDetailsNames).map(
             (detail) =>
               card[detail as CardDetailsKeys] && (
                 <FlexContainer
@@ -102,7 +88,7 @@ const Card = ({ name, id, imageUrl }: CardProps) => {
                   key={card[detail as CardDetailsKeys]}
                 >
                   <CardDetail
-                    label={CardDetails[detail as CardDetailsKeys]}
+                    label={CardDetailsNames[detail as CardDetailsKeys]}
                     value={card[detail as CardDetailsKeys]}
                   />
                 </FlexContainer>
