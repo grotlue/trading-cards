@@ -7,7 +7,7 @@ import { CardImage, CardName, CardWrapper } from "./style";
 import { CardDetailsNames } from "./types";
 import type { CardDetailsKeys, CardDetails } from "./types";
 
-interface CardProps {
+export interface CardProps {
   name: string;
   id: string;
   imageUrl: string;
