@@ -1,12 +1,12 @@
 import React from "react";
 
+import { FlexContainer } from "../../../Layout";
+import { CardDetailLabel } from "./style";
+
 interface CardDetailProps {
   label: string;
   value: string;
 }
-import { FlexContainer } from "../../../Layout";
-
-import { CardDetailLabel } from "../StyledCard";
 
 const CardDetail = ({ label, value }: CardDetailProps) => (
   <FlexContainer type="row" paddingLeft={25} paddingRight={25}>

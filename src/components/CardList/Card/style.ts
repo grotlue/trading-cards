@@ -30,18 +30,4 @@ const CardName = styled.p`
   width: 100%;
 `;
 
-const CardDetails = styled.div`
-  align-items: center;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  padding: 0 20px;
-  width: 100%;
-`;
-
-const CardDetailLabel = styled.p`
-  font-weight: bold;
-  margin-right: 5px;
-`;
-
-export { CardDetailLabel, CardDetails, CardImage, CardName, CardWrapper };
+export { CardImage, CardName, CardWrapper };

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import { FlexContainer } from "../../Layout";
 import CardDetail from "./CardDetail";
-import { CardImage, CardName, CardWrapper } from "./StyledCard";
+import { CardImage, CardName, CardWrapper } from "./style";
 
 interface CardProps {
   name: string;

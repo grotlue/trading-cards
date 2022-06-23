@@ -5,14 +5,12 @@ import React, {
   Dispatch,
   SetStateAction,
 } from "react";
-import styled from "styled-components";
 
 import CONSTANTS from "../../constants";
 
 import { FlexContainer } from "../Layout";
-import ColorFilter from "./ColorFilter";
-import ColorFilterMode from "./ColorFilterMode";
-import NameFilter from "./NameFilter";
+
+import { ColorFilter, ColorFilterMode, NameFilter, FilterLabel } from "./style";
 
 import type { FilterModeType } from "../../types";
 
@@ -20,11 +18,6 @@ interface FiltersProps {
   setCurrentPage: Dispatch<SetStateAction<number>>;
   setFilterQuery: Dispatch<SetStateAction<string>>;
 }
-
-const FilterLabel = styled.p`
-  font-weight: bold;
-  margin-right: 10px;
-`;
 
 const Filters = ({ setCurrentPage, setFilterQuery }: FiltersProps) => {
   const initialRender = useRef(true);
