@@ -1,5 +1,5 @@
 import React from "react";
-import { render, screen } from "@testing-library/react";
+import { render, screen, waitFor, fireEvent } from "@testing-library/react";
 import "@testing-library/jest-dom";
 import { rest } from "msw";
 import { setupServer } from "msw/node";
@@ -26,4 +26,56 @@ test("renders a card list with 25 items", async () => {
 
   const cards = await screen.findAllByTestId("card-front");
   expect(cards).toHaveLength(25);
+});
+
+test("renders a next page button when the total count is > 25", async () => {
+  server.use(
+    rest.get(cardsApiUrl, (_req, res, ctx) => {
+      return res(ctx.set("total-count", "51"), ctx.json(cardsSuccessRespone));
+    })
+  );
+
+  render(<ShowCase />);
+
+  await waitFor(() => screen.findByText("Next Page"));
+});
+
+test("does not render a next page button when the total count is < 25", async () => {
+  server.use(
+    rest.get(cardsApiUrl, (_req, res, ctx) => {
+      return res(ctx.set("total-count", "24"), ctx.json(cardsSuccessRespone));
+    })
+  );
+
+  render(<ShowCase />);
+
+  await waitFor(() => expect(screen.queryByText("Next Page")).toBeNull());
+});
+
+test("renders a previous page button if current page > 1", async () => {
+  server.use(
+    rest.get(cardsApiUrl, (_req, res, ctx) => {
+      return res(ctx.set("total-count", "51"), ctx.json(cardsSuccessRespone));
+    })
+  );
+
+  render(<ShowCase />);
+
+  const nextButton = await screen.findByText("Next Page");
+
+  fireEvent.click(nextButton);
+
+  await waitFor(() => screen.findByText("Previous Page"));
+});
+
+test("does not render a previous page button if current page == 1", async () => {
+  server.use(
+    rest.get(cardsApiUrl, (_req, res, ctx) => {
+      return res(ctx.set("total-count", "51"), ctx.json(cardsSuccessRespone));
+    })
+  );
+
+  render(<ShowCase />);
+
+  await waitFor(() => expect(screen.queryByText("Previous Page")).toBeNull());
 });

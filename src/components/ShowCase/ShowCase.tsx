@@ -54,7 +54,6 @@ const ShowCase = () => {
       <FlexContainer type="row" hCenter marginBottom={25}>
         <FlexContainer type="column" wrapItems>
           <Filters
-            data-testid="filters"
             setFilterQuery={setFilterQuery}
             setCurrentPage={setCurrentPage}
           />
@@ -80,12 +79,7 @@ const ShowCase = () => {
       </FlexContainer>
       <FlexContainer type="row" hCenter>
         <FlexContainer type="column" hCenter wrapItems>
-          <CardList
-            data-testid="card-list"
-            isLoaded={isLoaded}
-            error={error}
-            cardReponse={cards}
-          />
+          <CardList isLoaded={isLoaded} error={error} cardReponse={cards} />
         </FlexContainer>
       </FlexContainer>
     </React.Fragment>
